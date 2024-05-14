@@ -1,0 +1,626 @@
+# text = ﻿Därför kan en autistisk behöva vilodagar
+# sent_id = 0
+1	﻿	)	PUNCT	MID	_	7	punct	_	start_char=0|end_char=1|ner=O|SpaceAfter=No
+2	Därför	därför	ADV	AB	_	7	advmod	_	start_char=1|end_char=7|ner=O
+3	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=8|end_char=11|ner=O
+4	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	5	det	_	start_char=12|end_char=14|ner=O
+5	autistisk	autistisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	nsubj	_	start_char=15|end_char=24|ner=O
+6	behöva	behöva	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	aux	_	start_char=25|end_char=31|ner=O
+7	vilodagar	vilodag	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	start_char=32|end_char=41|ner=O|SpacesAfter=\n
+
+# text = Vi som lever med autism stöter på betydligt fler utmaningar i vår vardag än en genomsnittlig neurotypiker, det vill säga en person utan autism.
+# sent_id = 1
+1	Vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	6	nsubj	_	start_char=42|end_char=44|ner=O
+2	som	som	PRON	HP|-|-|-	PronType=Rel	3	nsubj	_	start_char=45|end_char=48|ner=O
+3	lever	leva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	start_char=49|end_char=54|ner=O
+4	med	med	ADP	PP	_	5	case	_	start_char=55|end_char=58|ner=O
+5	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	start_char=59|end_char=65|ner=O
+6	stöter	stöta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=66|end_char=72|ner=O
+7	på	på	ADP	PP	_	10	case	_	start_char=73|end_char=75|ner=O
+8	betydligt	betydlig	ADV	AB	_	9	advmod	_	start_char=76|end_char=85|ner=O
+9	fler	fler	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	10	amod	_	start_char=86|end_char=90|ner=O
+10	utmaningar	utmaning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	obl	_	start_char=91|end_char=101|ner=O
+11	i	i	ADP	PP	_	13	case	_	start_char=102|end_char=103|ner=O
+12	vår	vi	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=104|end_char=107|ner=O
+13	vardag	vardag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	nmod	_	start_char=108|end_char=114|ner=O
+14	än	än	SCONJ	KN	_	17	mark	_	start_char=115|end_char=117|ner=O
+15	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	17	det	_	start_char=118|end_char=120|ner=O
+16	genomsnittlig	genomsnittlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	amod	_	start_char=121|end_char=134|ner=O
+17	neurotypiker	neurotypiker	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	acl	_	start_char=135|end_char=147|ner=O|SpaceAfter=No
+18	,	,	PUNCT	MID	_	6	punct	_	start_char=147|end_char=148|ner=O
+19	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	23	advmod	_	start_char=149|end_char=152|ner=O
+20	vill	vilja	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	fixed	_	start_char=153|end_char=157|ner=O
+21	säga	säga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	19	fixed	_	start_char=158|end_char=162|ner=O
+22	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	23	det	_	start_char=163|end_char=165|ner=O
+23	person	person	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	parataxis	_	start_char=166|end_char=172|ner=O
+24	utan	utan	ADP	PP	_	25	case	_	start_char=173|end_char=177|ner=O
+25	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	nmod	_	start_char=178|end_char=184|ner=O|SpaceAfter=No
+26	.	.	PUNCT	MAD	_	6	punct	_	start_char=184|end_char=185|ner=O
+
+# text = Därför kan vi autister ibland behöva ta vilodagar utan några måsten.
+# sent_id = 2
+1	Därför	därför	ADV	AB	_	7	advmod	_	start_char=186|end_char=192|ner=O
+2	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=193|end_char=196|ner=O
+3	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	7	nsubj	_	start_char=197|end_char=199|ner=O
+4	autister	autist	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	nsubj	_	start_char=200|end_char=208|ner=O
+5	ibland	ibland	ADV	AB	_	7	advmod	_	start_char=209|end_char=215|ner=O
+6	behöva	behöva	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	aux	_	start_char=216|end_char=222|ner=O
+7	ta	ta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=223|end_char=225|ner=O
+8	vilodagar	vilodag	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obj	_	start_char=226|end_char=235|ner=O
+9	utan	utan	ADP	PP	_	11	case	_	start_char=236|end_char=240|ner=O
+10	några	någon	DET	DT|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Ind	11	det	_	start_char=241|end_char=246|ner=O
+11	måsten	måst	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	start_char=247|end_char=253|ner=O|SpaceAfter=No
+12	.	.	PUNCT	MAD	_	7	punct	_	start_char=253|end_char=254|ner=O
+
+# text = ”En självklarhet”, tänker kanske du som är neurotypiker.
+# sent_id = 3
+1	”	)	PUNCT	MID	_	3	punct	_	start_char=255|end_char=256|ner=O|SpaceAfter=No
+2	En	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	3	det	_	start_char=256|end_char=258|ner=O
+3	självklarhet”	självklarhet”	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=259|end_char=272|ner=O|SpaceAfter=No
+4	,	,	PUNCT	MID	_	3	punct	_	start_char=272|end_char=273|ner=O
+5	tänker	tänka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=274|end_char=280|ner=O
+6	kanske	kanske	ADV	AB	_	5	advmod	_	start_char=281|end_char=287|ner=O
+7	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	_	start_char=288|end_char=290|ner=O
+8	som	som	PRON	HP|-|-|-	PronType=Rel	10	nsubj	_	start_char=291|end_char=294|ner=O
+9	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=295|end_char=297|ner=O
+10	neurotypiker	neurotypiker	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	acl:relcl	_	start_char=298|end_char=310|ner=O|SpaceAfter=No
+11	.	.	PUNCT	MAD	_	3	punct	_	start_char=310|end_char=311|ner=O
+
+# text = Men faktum är att en autists vilodagar kan se annorlunda ut än en neurotypikers vilodagar, och vi autister kan dessutom bli trötta av saker som inte skulle trötta ut en genomsnittlig neurotypiker.
+# sent_id = 4
+1	Men	men	CCONJ	KN	_	2	cc	_	start_char=312|end_char=315|ner=O
+2	faktum	faktum	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	start_char=316|end_char=322|ner=O
+3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	start_char=323|end_char=325|ner=O
+4	att	att	SCONJ	SN	_	9	mark	_	start_char=326|end_char=329|ner=O
+5	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	det	_	start_char=330|end_char=332|ner=O
+6	autists	autists	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	7	nmod:poss	_	start_char=333|end_char=340|ner=O
+7	vilodagar	vilodag	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	nsubj	_	start_char=341|end_char=350|ner=O
+8	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	start_char=351|end_char=354|ner=O
+9	se	se	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	csubj	_	start_char=355|end_char=357|ner=O
+10	annorlunda	annorlunda	ADV	AB	_	9	xcomp	_	start_char=358|end_char=368|ner=O
+11	ut	ut	ADV	PL	_	9	compound:prt	_	start_char=369|end_char=371|ner=O
+12	än	än	ADP	KN	_	15	case	_	start_char=372|end_char=374|ner=O
+13	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	14	det	_	start_char=375|end_char=377|ner=O
+14	neurotypikers	neurotypik	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	15	amod	_	start_char=378|end_char=391|ner=O
+15	vilodagar	vilodag	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obl	_	start_char=392|end_char=401|ner=O|SpaceAfter=No
+16	,	,	PUNCT	MID	_	23	punct	_	start_char=401|end_char=402|ner=O
+17	och	och	CCONJ	KN	_	23	cc	_	start_char=403|end_char=406|ner=O
+18	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	19	nmod:poss	_	start_char=407|end_char=409|ner=O
+19	autister	autist	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	23	nsubj	_	start_char=410|end_char=418|ner=O
+20	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	start_char=419|end_char=422|ner=O
+21	dessutom	dessutom	ADV	AB	_	23	advmod	_	start_char=423|end_char=431|ner=O
+22	bli	bli	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	23	aux:pass	_	start_char=432|end_char=435|ner=O
+23	trötta	trött	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	2	conj	_	start_char=436|end_char=442|ner=O
+24	av	av	ADP	PP	_	25	case	_	start_char=443|end_char=445|ner=O
+25	saker	sak	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	23	obl:agent	_	start_char=446|end_char=451|ner=O
+26	som	som	PRON	HP|-|-|-	PronType=Rel	29	nsubj	_	start_char=452|end_char=455|ner=O
+27	inte	inte	PART	AB	Polarity=Neg	29	advmod	_	start_char=456|end_char=460|ner=O
+28	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	29	aux	_	start_char=461|end_char=467|ner=O
+29	trötta	trött	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	25	acl:relcl	_	start_char=468|end_char=474|ner=O
+30	ut	ut	ADV	PL	_	29	compound:prt	_	start_char=475|end_char=477|ner=O
+31	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	33	det	_	start_char=478|end_char=480|ner=O
+32	genomsnittlig	genomsnittlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	33	amod	_	start_char=481|end_char=494|ner=O
+33	neurotypiker	neurotypiker	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	29	obj	_	start_char=495|end_char=507|ner=O|SpaceAfter=No
+34	.	.	PUNCT	MAD	_	23	punct	_	start_char=507|end_char=508|ner=O|SpacesAfter=\n
+
+# text = Mycket att tänka på
+# sent_id = 5
+1	Mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	start_char=509|end_char=515|ner=O
+2	att	att	PART	IE	_	3	mark	_	start_char=516|end_char=519|ner=O
+3	tänka	tänka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	1	csubj	_	start_char=520|end_char=525|ner=O
+4	på	på	ADP	PP	_	3	case	_	start_char=526|end_char=528|ner=O|SpacesAfter=\n
+
+# text = För ett par dagar sedan hade jag en energikrävande dag: jag behövde ringa till en vårdgivare, och därefter behövde jag boka en tågresa p g a en föreläsning jag ska hålla i slutet av maj.
+# sent_id = 6
+1	För	för	ADP	PP	_	4	case	_	start_char=529|end_char=532|ner=B-TME
+2	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=533|end_char=536|ner=I-TME
+3	par	par	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	start_char=537|end_char=540|ner=I-TME
+4	dagar	dag	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	obl	_	start_char=541|end_char=546|ner=I-TME
+5	sedan	sedan	ADV	AB	_	1	fixed	_	start_char=547|end_char=552|ner=E-TME
+6	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=553|end_char=557|ner=O
+7	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	start_char=558|end_char=561|ner=O
+8	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	10	det	_	start_char=562|end_char=564|ner=O
+9	energikrävande	energikrävande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	10	amod	_	start_char=565|end_char=579|ner=O
+10	dag	dag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obj	_	start_char=580|end_char=583|ner=O|SpaceAfter=No
+11	:	:	PUNCT	MID	_	10	punct	_	start_char=583|end_char=584|ner=O
+12	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	nsubj	_	start_char=585|end_char=588|ner=O
+13	behövde	behöva	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	start_char=589|end_char=596|ner=O
+14	ringa	ringa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	parataxis	_	start_char=597|end_char=602|ner=O
+15	till	till	ADP	PP	_	17	case	_	start_char=603|end_char=607|ner=O
+16	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	17	det	_	start_char=608|end_char=610|ner=O
+17	vårdgivare	vårdgivare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	_	start_char=611|end_char=621|ner=O|SpaceAfter=No
+18	,	,	PUNCT	MID	_	23	punct	_	start_char=621|end_char=622|ner=O
+19	och	och	CCONJ	KN	_	23	cc	_	start_char=623|end_char=626|ner=O
+20	därefter	därefter	ADV	AB	_	23	advmod	_	start_char=627|end_char=635|ner=O
+21	behövde	behöva	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	23	aux	_	start_char=636|end_char=643|ner=O
+22	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	nsubj	_	start_char=644|end_char=647|ner=O
+23	boka	boka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	conj	_	start_char=648|end_char=652|ner=O
+24	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	25	det	_	start_char=653|end_char=655|ner=O
+25	tågresa	tågresa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	obj	_	start_char=656|end_char=663|ner=O
+26	p g a	p g a	ADP	PP	_	28	case	_	start_char=664|end_char=669|ner=O
+27	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	28	det	_	start_char=670|end_char=672|ner=O
+28	föreläsning	föreläsning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	obl	_	start_char=673|end_char=684|ner=O
+29	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	31	nsubj	_	start_char=685|end_char=688|ner=O
+30	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux	_	start_char=689|end_char=692|ner=O
+31	hålla	hålla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	28	acl:relcl	_	start_char=693|end_char=698|ner=O
+32	i	i	ADP	PP	_	33	case	_	start_char=699|end_char=700|ner=B-TME
+33	slutet	slut	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	31	obl	_	start_char=701|end_char=707|ner=I-TME
+34	av	av	ADP	PP	_	35	case	_	start_char=708|end_char=710|ner=I-TME
+35	maj	maj	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	nmod	_	start_char=711|end_char=714|ner=E-TME|SpaceAfter=No
+36	.	.	PUNCT	MAD	_	14	punct	_	start_char=714|end_char=715|ner=O
+
+# text = Resebokningar omfattar flera steg: man ska välja vilken sittplats man ska ha på tåget, ange sitt kortnummer och framför allt ska man välja avgångar som passar.
+# sent_id = 7
+1	Resebokningar	resebokning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	nsubj	_	start_char=716|end_char=729|ner=O
+2	omfattar	omfatta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=730|end_char=738|ner=O
+3	flera	flera	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	4	amod	_	start_char=739|end_char=744|ner=O
+4	steg	steg	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	start_char=745|end_char=749|ner=O|SpaceAfter=No
+5	:	:	PUNCT	MAD	_	2	punct	_	start_char=749|end_char=750|ner=O
+6	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	8	nsubj	_	start_char=751|end_char=754|ner=O
+7	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	start_char=755|end_char=758|ner=O
+8	välja	välja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	parataxis	_	start_char=759|end_char=764|ner=O
+9	vilken	vilken	DET	HD|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	10	det	_	start_char=765|end_char=771|ner=O
+10	sittplats	sittplats	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	dislocated	_	start_char=772|end_char=781|ner=O
+11	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	13	nsubj	_	start_char=782|end_char=785|ner=O
+12	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	start_char=786|end_char=789|ner=O
+13	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	ccomp	_	start_char=790|end_char=792|ner=O
+14	på	på	ADP	PP	_	15	case	_	start_char=793|end_char=795|ner=O
+15	tåget	tåg	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	obl	_	start_char=796|end_char=801|ner=O|SpaceAfter=No
+16	,	,	PUNCT	MID	_	17	punct	_	start_char=801|end_char=802|ner=O
+17	ange	ange	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	conj	_	start_char=803|end_char=807|ner=O
+18	sitt	sig	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=808|end_char=812|ner=O
+19	kortnummer	kortnummer	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	obj	_	start_char=813|end_char=823|ner=O
+20	och	och	CCONJ	KN	_	25	cc	_	start_char=824|end_char=827|ner=O
+21	framför	framför	ADP	PP	_	25	advmod	_	start_char=828|end_char=835|ner=O
+22	allt	all	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	21	fixed	_	start_char=836|end_char=840|ner=O
+23	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	start_char=841|end_char=844|ner=O
+24	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	25	nsubj	_	start_char=845|end_char=848|ner=O
+25	välja	välja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	conj	_	start_char=849|end_char=854|ner=O
+26	avgångar	avgånge	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	25	obj	_	start_char=855|end_char=863|ner=O
+27	som	som	PRON	HP|-|-|-	PronType=Rel	28	nsubj	_	start_char=864|end_char=867|ner=O
+28	passar	passa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	start_char=868|end_char=874|ner=O|SpaceAfter=No
+29	.	.	PUNCT	MAD	_	2	punct	_	start_char=874|end_char=875|ner=O
+
+# text = Jag vill inte åka för tidigt hemifrån men samtidigt vill jag inte anlända för sent till hotellet, inte minst med tanke på att SJ inte direkt är känt för att hålla tider.
+# sent_id = 8
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	start_char=876|end_char=879|ner=O
+2	vill	vilja	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=880|end_char=884|ner=O
+3	inte	inte	PART	AB	Polarity=Neg	4	advmod	_	start_char=885|end_char=889|ner=O
+4	åka	åka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=890|end_char=893|ner=O
+5	för	för	ADV	AB	_	6	advmod	_	start_char=894|end_char=897|ner=O
+6	tidigt	tidig	ADV	AB|POS	Degree=Pos	4	advmod	_	start_char=898|end_char=904|ner=O
+7	hemifrån	hemifrån	ADV	AB	_	4	advmod	_	start_char=905|end_char=913|ner=O
+8	men	men	CCONJ	KN	_	13	cc	_	start_char=914|end_char=917|ner=O
+9	samtidigt	samtidig	ADV	AB	_	13	advmod	_	start_char=918|end_char=927|ner=S-TME
+10	vill	vilja	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	start_char=928|end_char=932|ner=O
+11	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	nsubj	_	start_char=933|end_char=936|ner=O
+12	inte	inte	PART	AB	Polarity=Neg	13	advmod	_	start_char=937|end_char=941|ner=O
+13	anlända	anlända	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	conj	_	start_char=942|end_char=949|ner=O
+14	för	för	ADV	AB	_	15	advmod	_	start_char=950|end_char=953|ner=O
+15	sent	sen	ADV	AB|POS	Degree=Pos	13	advmod	_	start_char=954|end_char=958|ner=O
+16	till	till	ADP	PP	_	17	case	_	start_char=959|end_char=963|ner=O
+17	hotellet	hotell	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	obl	_	start_char=964|end_char=972|ner=O|SpaceAfter=No
+18	,	,	PUNCT	MID	_	13	punct	_	start_char=972|end_char=973|ner=O
+19	inte	inte	PART	AB	Polarity=Neg	29	advmod	_	start_char=974|end_char=978|ner=O
+20	minst	lite	ADV	AB|SUV	Degree=Sup	29	advmod	_	start_char=979|end_char=984|ner=O
+21	med	med	ADP	PP	_	29	mark	_	start_char=985|end_char=988|ner=O
+22	tanke	tanke	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	fixed	_	start_char=989|end_char=994|ner=O
+23	på	på	ADP	PP	_	21	fixed	_	start_char=995|end_char=997|ner=O
+24	att	att	SCONJ	SN	_	29	mark	_	start_char=998|end_char=1001|ner=O
+25	SJ	SJ	PROPN	PM|NOM	Case=Nom	29	nsubj	_	start_char=1002|end_char=1004|ner=S-ORG
+26	inte	inte	PART	AB	Polarity=Neg	29	advmod	_	start_char=1005|end_char=1009|ner=O
+27	direkt	direkt	ADV	AB|POS	Degree=Pos	29	advmod	_	start_char=1010|end_char=1016|ner=O
+28	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	29	cop	_	start_char=1017|end_char=1019|ner=O
+29	känt	känd	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	start_char=1020|end_char=1024|ner=O
+30	för	för	ADP	PP	_	32	mark	_	start_char=1025|end_char=1028|ner=O
+31	att	att	PART	IE	_	32	mark	_	start_char=1029|end_char=1032|ner=O
+32	hålla	hålla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	29	advcl	_	start_char=1033|end_char=1038|ner=O
+33	tider	tid	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	32	obj	_	start_char=1039|end_char=1044|ner=O|SpaceAfter=No
+34	.	.	PUNCT	MAD	_	4	punct	_	start_char=1044|end_char=1045|ner=O
+
+# text = Det var mycket att tänka på!
+# sent_id = 9
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	nsubj	_	start_char=1046|end_char=1049|ner=O
+2	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=1050|end_char=1053|ner=O
+3	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=1054|end_char=1060|ner=O
+4	att	att	PART	IE	_	5	mark	_	start_char=1061|end_char=1064|ner=O
+5	tänka	tänka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	advcl	_	start_char=1065|end_char=1070|ner=O
+6	på	på	ADP	PP	_	5	case	_	start_char=1071|end_char=1073|ner=O|SpaceAfter=No
+7	!	!	PUNCT	MAD	_	3	punct	_	start_char=1073|end_char=1074|ner=O|SpacesAfter=\n
+
+# text = Behövde ta vilodagar
+# sent_id = 10
+1	Behövde	behöva	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	aux	_	start_char=1075|end_char=1082|ner=O
+2	ta	ta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=1083|end_char=1085|ner=O
+3	vilodagar	vilodag	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obj	_	start_char=1086|end_char=1095|ner=O|SpacesAfter=\n
+
+# text = Jag blev mentalt utmattad av resebokningen och kände att min hjärna stängde av.
+# sent_id = 11
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=1096|end_char=1099|ner=O
+2	blev	bli	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1100|end_char=1104|ner=O
+3	mentalt	mental	ADV	AB|POS	Degree=Pos	4	advmod	_	start_char=1105|end_char=1112|ner=O
+4	utmattad	utmatta	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	start_char=1113|end_char=1121|ner=O
+5	av	av	ADP	PP	_	6	case	_	start_char=1122|end_char=1124|ner=O
+6	resebokningen	resebokning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	start_char=1125|end_char=1138|ner=O
+7	och	och	CCONJ	KN	_	8	cc	_	start_char=1139|end_char=1142|ner=O
+8	kände	känna	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=1143|end_char=1148|ner=O
+9	att	att	SCONJ	SN	_	12	mark	_	start_char=1149|end_char=1152|ner=O
+10	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=1153|end_char=1156|ner=O
+11	hjärna	hjärna	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nsubj	_	start_char=1157|end_char=1163|ner=O
+12	stängde	stänga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	start_char=1164|end_char=1171|ner=O
+13	av	av	ADP	PL	_	12	compound:prt	_	start_char=1172|end_char=1174|ner=O|SpaceAfter=No
+14	.	.	PUNCT	MAD	_	2	punct	_	start_char=1174|end_char=1175|ner=O
+
+# text = Även telefonsamtalet tog mycket energi av mig då jag blir trött av telefonsamtal.
+# sent_id = 12
+1	Även	även	ADV	AB	_	2	advmod	_	start_char=1176|end_char=1180|ner=O
+2	telefonsamtalet	telefonsamtal	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	start_char=1181|end_char=1196|ner=O
+3	tog	ta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1197|end_char=1200|ner=O
+4	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=1201|end_char=1207|ner=O
+5	energi	energi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obj	_	start_char=1208|end_char=1214|ner=O
+6	av	av	ADP	PP	_	7	case	_	start_char=1215|end_char=1217|ner=O
+7	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	obl	_	start_char=1218|end_char=1221|ner=O
+8	då	då	SCONJ	HA	_	11	mark	_	start_char=1222|end_char=1224|ner=O
+9	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj	_	start_char=1225|end_char=1228|ner=O
+10	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	_	start_char=1229|end_char=1233|ner=O
+11	trött	trött	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	advcl	_	start_char=1234|end_char=1239|ner=O
+12	av	av	ADP	PP	_	13	case	_	start_char=1240|end_char=1242|ner=O
+13	telefonsamtal	telefonsamtal	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	start_char=1243|end_char=1256|ner=O|SpaceAfter=No
+14	.	.	PUNCT	MAD	_	3	punct	_	start_char=1256|end_char=1257|ner=O
+
+# text = Efter resebokningen och telefonsamtalet behövde jag därför ta ett par vilodagar då jag inte hade några måsten alls.
+# sent_id = 13
+1	Efter	efter	ADP	PP	_	2	case	_	start_char=1258|end_char=1263|ner=O
+2	resebokningen	resebokning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	obl	_	start_char=1264|end_char=1277|ner=O
+3	och	och	CCONJ	KN	_	4	cc	_	start_char=1278|end_char=1281|ner=O
+4	telefonsamtalet	telefonsamtal	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	conj	_	start_char=1282|end_char=1297|ner=O
+5	behövde	behöva	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	start_char=1298|end_char=1305|ner=O
+6	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	start_char=1306|end_char=1309|ner=O
+7	därför	därför	ADV	AB	_	8	advmod	_	start_char=1310|end_char=1316|ner=O
+8	ta	ta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=1317|end_char=1319|ner=O
+9	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	10	det	_	start_char=1320|end_char=1323|ner=O
+10	par	par	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	start_char=1324|end_char=1327|ner=O
+11	vilodagar	vilodag	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	obj	_	start_char=1328|end_char=1337|ner=O
+12	då	då	ADV	HA	_	15	advmod	_	start_char=1338|end_char=1340|ner=O
+13	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	nsubj	_	start_char=1341|end_char=1344|ner=O
+14	inte	inte	PART	AB	Polarity=Neg	15	advmod	_	start_char=1345|end_char=1349|ner=O
+15	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=1350|end_char=1354|ner=O
+16	några	någon	DET	DT|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Ind	17	det	_	start_char=1355|end_char=1360|ner=O
+17	måsten	måst	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	15	obj	_	start_char=1361|end_char=1367|ner=O
+18	alls	alls	ADV	AB	_	15	advmod	_	start_char=1368|end_char=1372|ner=O|SpaceAfter=No
+19	.	.	PUNCT	MAD	_	8	punct	_	start_char=1372|end_char=1373|ner=O
+
+# text = För mig är en vilodag nämligen en dag då jag verkligen inte gör något energikrävande alls: inte kammar håret, inte kastar sopor eller diskar samt att jag tillåter mig själv att slänga kläder på golvet istället för att hänga upp dem.
+# sent_id = 14
+1	För	för	ADP	PP	_	2	case	_	start_char=1374|end_char=1377|ner=O
+2	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	obl	_	start_char=1378|end_char=1381|ner=O
+3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=1382|end_char=1384|ner=O
+4	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	5	det	_	start_char=1385|end_char=1387|ner=O
+5	vilodag	vilodag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nsubj	_	start_char=1388|end_char=1395|ner=O
+6	nämligen	nämligen	ADV	AB	_	8	advmod	_	start_char=1396|end_char=1404|ner=O
+7	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	8	det	_	start_char=1405|end_char=1407|ner=B-TME
+8	dag	dag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=1408|end_char=1411|ner=E-TME
+9	då	då	ADV	HA	_	13	advmod	_	start_char=1412|end_char=1414|ner=O
+10	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	nsubj	_	start_char=1415|end_char=1418|ner=O
+11	verkligen	verkligen	ADV	AB	_	13	advmod	_	start_char=1419|end_char=1428|ner=O
+12	inte	inte	PART	AB	Polarity=Neg	13	advmod	_	start_char=1429|end_char=1433|ner=O
+13	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=1434|end_char=1437|ner=O
+14	något	någon	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	det	_	start_char=1438|end_char=1443|ner=O
+15	energikrävande	energikrävande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	start_char=1444|end_char=1458|ner=O
+16	alls	alls	ADV	AB	_	13	advmod	_	start_char=1459|end_char=1463|ner=O|SpaceAfter=No
+17	:	:	PUNCT	MID	_	8	punct	_	start_char=1463|end_char=1464|ner=O
+18	inte	inte	PART	AB	Polarity=Neg	19	advmod	_	start_char=1465|end_char=1469|ner=O
+19	kammar	kamma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	start_char=1470|end_char=1476|ner=O
+20	håret	hår	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	19	obj	_	start_char=1477|end_char=1482|ner=O|SpaceAfter=No
+21	,	,	PUNCT	MID	_	23	punct	_	start_char=1482|end_char=1483|ner=O
+22	inte	inte	PART	AB	Polarity=Neg	23	advmod	_	start_char=1484|end_char=1488|ner=O
+23	kastar	kasta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	start_char=1489|end_char=1495|ner=O
+24	sopor	sopa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	23	obj	_	start_char=1496|end_char=1501|ner=O
+25	eller	eller	CCONJ	KN	_	26	cc	_	start_char=1502|end_char=1507|ner=O
+26	diskar	diska	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	24	conj	_	start_char=1508|end_char=1514|ner=O
+27	samt	samt	CCONJ	KN	_	30	cc	_	start_char=1515|end_char=1519|ner=O
+28	att	att	SCONJ	SN	_	30	mark	_	start_char=1520|end_char=1523|ner=O
+29	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	30	nsubj	_	start_char=1524|end_char=1527|ner=O
+30	tillåter	tillåta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	start_char=1528|end_char=1536|ner=O
+31	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	30	obj	_	start_char=1537|end_char=1540|ner=O
+32	själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	31	acl	_	start_char=1541|end_char=1546|ner=O
+33	att	att	PART	IE	_	34	mark	_	start_char=1547|end_char=1550|ner=O
+34	slänga	slänga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	30	advcl	_	start_char=1551|end_char=1557|ner=O
+35	kläder	kläder	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	34	obj	_	start_char=1558|end_char=1564|ner=O
+36	på	på	ADP	PP	_	37	case	_	start_char=1565|end_char=1567|ner=O
+37	golvet	golv	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	34	obl	_	start_char=1568|end_char=1574|ner=O
+38	istället	istället	ADV	AB	_	41	mark	_	start_char=1575|end_char=1583|ner=O
+39	för	för	ADP	PP	_	38	fixed	_	start_char=1584|end_char=1587|ner=O
+40	att	att	PART	IE	_	41	mark	_	start_char=1588|end_char=1591|ner=O
+41	hänga	hänga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	34	advcl	_	start_char=1592|end_char=1597|ner=O
+42	upp	upp	ADV	PL	_	41	compound:prt	_	start_char=1598|end_char=1601|ner=O
+43	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	41	obj	_	start_char=1602|end_char=1605|ner=O|SpaceAfter=No
+44	.	.	PUNCT	MAD	_	8	punct	_	start_char=1605|end_char=1606|ner=O
+
+# text = Jag har aldrig förstått mig på människor som diskar och torkar diskbänken på sina vilodagar.
+# sent_id = 15
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	start_char=1607|end_char=1610|ner=O
+2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=1611|end_char=1614|ner=O
+3	aldrig	aldrig	ADV	AB	Polarity=Neg	4	advmod	_	start_char=1615|end_char=1621|ner=O
+4	förstått	förstå	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=1622|end_char=1630|ner=O
+5	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	obj	_	start_char=1631|end_char=1634|ner=O
+6	på	på	ADP	PP	_	7	case	_	start_char=1635|end_char=1637|ner=O
+7	människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	obl	_	start_char=1638|end_char=1647|ner=O
+8	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj	_	start_char=1648|end_char=1651|ner=O
+9	diskar	diska	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=1652|end_char=1658|ner=O
+10	och	och	CCONJ	KN	_	11	cc	_	start_char=1659|end_char=1662|ner=O
+11	torkar	torka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	start_char=1663|end_char=1669|ner=O
+12	diskbänken	diskbänk	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	obj	_	start_char=1670|end_char=1680|ner=O
+13	på	på	ADP	PP	_	15	case	_	start_char=1681|end_char=1683|ner=O
+14	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=1684|end_char=1688|ner=O
+15	vilodagar	vilodag	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obl	_	start_char=1689|end_char=1698|ner=O|SpaceAfter=No
+16	.	.	PUNCT	MAD	_	4	punct	_	start_char=1698|end_char=1699|ner=O
+
+# text = Min hjärna vilar inte tillräckligt när jag har sådana måsten!
+# sent_id = 16
+1	Min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=1700|end_char=1703|ner=O
+2	hjärna	hjärna	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj	_	start_char=1704|end_char=1710|ner=O
+3	vilar	vila	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1711|end_char=1716|ner=O
+4	inte	inte	PART	AB	Polarity=Neg	3	advmod	_	start_char=1717|end_char=1721|ner=O
+5	tillräckligt	tillräcklig	ADV	AB|POS	Degree=Pos	3	advmod	_	start_char=1722|end_char=1734|ner=O
+6	när	när	SCONJ	HA	_	8	mark	_	start_char=1735|end_char=1738|ner=O
+7	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	start_char=1739|end_char=1742|ner=O
+8	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=1743|end_char=1746|ner=O
+9	sådana	sån	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	10	amod	_	start_char=1747|end_char=1753|ner=O
+10	måsten	måst	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	obj	_	start_char=1754|end_char=1760|ner=O|SpaceAfter=No
+11	!	!	PUNCT	MAD	_	3	punct	_	start_char=1760|end_char=1761|ner=O|SpacesAfter=\n
+
+# text = Vissa orkar inte hälsa
+# sent_id = 17
+1	Vissa	viss	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	2	nsubj	_	start_char=1762|end_char=1767|ner=O
+2	orkar	orka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1768|end_char=1773|ner=O
+3	inte	inte	PART	AB	Polarity=Neg	2	advmod	_	start_char=1774|end_char=1778|ner=O
+4	hälsa	hälsa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	start_char=1779|end_char=1784|ner=O|SpacesAfter=\n
+
+# text = Det är dock väldigt olika vad som tar och inte tar energi av en autist.
+# sent_id = 18
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	5	expl	_	start_char=1785|end_char=1788|ner=O
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=1789|end_char=1791|ner=O
+3	dock	dock	ADV	AB	_	5	advmod	_	start_char=1792|end_char=1796|ner=O
+4	väldigt	väldig	ADV	AB|POS	Degree=Pos	5	advmod	_	start_char=1797|end_char=1804|ner=O
+5	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=1805|end_char=1810|ner=O
+6	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	8	dislocated	_	start_char=1811|end_char=1814|ner=O
+7	som	som	PRON	HP|-|-|-	PronType=Rel	8	nsubj	_	start_char=1815|end_char=1818|ner=O
+8	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	csubj	_	start_char=1819|end_char=1822|ner=O
+9	och	och	CCONJ	KN	_	11	cc	_	start_char=1823|end_char=1826|ner=O
+10	inte	inte	PART	AB	Polarity=Neg	11	advmod	_	start_char=1827|end_char=1831|ner=O
+11	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=1832|end_char=1835|ner=O
+12	energi	energi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obj	_	start_char=1836|end_char=1842|ner=O
+13	av	av	ADP	PP	_	15	case	_	start_char=1843|end_char=1845|ner=O
+14	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	15	det	_	start_char=1846|end_char=1848|ner=O
+15	autist	autist	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obl	_	start_char=1849|end_char=1855|ner=O|SpaceAfter=No
+16	.	.	PUNCT	MAD	_	5	punct	_	start_char=1855|end_char=1856|ner=O
+
+# text = Jag har träffat autister som tycker att det tar väldigt mycket energi att hälsa på sina grannar varför de inte ens säger ”hej” till grannar och bekanta på gatan när de har vilodagar.
+# sent_id = 19
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	start_char=1857|end_char=1860|ner=O
+2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=1861|end_char=1864|ner=O
+3	träffat	träffa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=1865|end_char=1872|ner=O
+4	autister	autist	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obj	_	start_char=1873|end_char=1881|ner=O
+5	som	som	PRON	HP|-|-|-	PronType=Rel	6	nsubj	_	start_char=1882|end_char=1885|ner=O
+6	tycker	tycka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=1886|end_char=1892|ner=O
+7	att	att	SCONJ	SN	_	9	mark	_	start_char=1893|end_char=1896|ner=O
+8	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	9	expl	_	start_char=1897|end_char=1900|ner=O
+9	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	start_char=1901|end_char=1904|ner=O
+10	väldigt	väldig	ADV	AB|POS	Degree=Pos	11	advmod	_	start_char=1905|end_char=1912|ner=O
+11	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=1913|end_char=1919|ner=O
+12	energi	energi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	_	start_char=1920|end_char=1926|ner=O
+13	att	att	PART	IE	_	14	mark	_	start_char=1927|end_char=1930|ner=O
+14	hälsa	hälsa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	advcl	_	start_char=1931|end_char=1936|ner=O
+15	på	på	ADP	PP	_	17	case	_	start_char=1937|end_char=1939|ner=O
+16	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=1940|end_char=1944|ner=O
+17	grannar	grann	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	obl	_	start_char=1945|end_char=1952|ner=O
+18	varför	varför	ADV	HA	_	22	advmod	_	start_char=1953|end_char=1959|ner=O
+19	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	22	nsubj	_	start_char=1960|end_char=1962|ner=O
+20	inte	inte	PART	AB	Polarity=Neg	22	advmod	_	start_char=1963|end_char=1967|ner=O
+21	ens	ens	ADV	AB	_	22	advmod	_	start_char=1968|end_char=1971|ner=O
+22	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=1972|end_char=1977|ner=O
+23	”hej”	”hej”	ADV	AB	_	22	advmod	_	start_char=1978|end_char=1983|ner=O
+24	till	till	ADP	PP	_	25	case	_	start_char=1984|end_char=1988|ner=O
+25	grannar	grann	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	22	obl	_	start_char=1989|end_char=1996|ner=O
+26	och	och	CCONJ	KN	_	27	cc	_	start_char=1997|end_char=2000|ner=O
+27	bekanta	bekant	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	25	conj	_	start_char=2001|end_char=2008|ner=O
+28	på	på	ADP	PP	_	29	case	_	start_char=2009|end_char=2011|ner=O
+29	gatan	gata	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	22	obl	_	start_char=2012|end_char=2017|ner=O
+30	när	när	SCONJ	HA	_	32	mark	_	start_char=2018|end_char=2021|ner=O
+31	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	32	nsubj	_	start_char=2022|end_char=2024|ner=O
+32	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	start_char=2025|end_char=2028|ner=O
+33	vilodagar	vilodag	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	32	obj	_	start_char=2029|end_char=2038|ner=O|SpaceAfter=No
+34	.	.	PUNCT	MAD	_	3	punct	_	start_char=2038|end_char=2039|ner=O
+
+# text = Själv tycker jag inte att det tar energi att hälsa, men däremot tycker jag att det tar väldigt mycket energi att hålla upp dörren för t.ex. mina grannar (och tvärtom tycker jag också att det tar energi när andra håller upp dörrar för mig).
+# sent_id = 20
+1	Själv	själv	ADV	AB	_	2	advmod	_	start_char=2040|end_char=2045|ner=O
+2	tycker	tycka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=2046|end_char=2052|ner=O
+3	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=2053|end_char=2056|ner=O
+4	inte	inte	PART	AB	Polarity=Neg	2	advmod	_	start_char=2057|end_char=2061|ner=O
+5	att	att	SCONJ	SN	_	7	mark	_	start_char=2062|end_char=2065|ner=O
+6	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	nsubj	_	start_char=2066|end_char=2069|ner=O
+7	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=2070|end_char=2073|ner=O
+8	energi	energi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obj	_	start_char=2074|end_char=2080|ner=O
+9	att	att	PART	IE	_	10	mark	_	start_char=2081|end_char=2084|ner=O
+10	hälsa	hälsa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obl	_	start_char=2085|end_char=2090|ner=O|SpaceAfter=No
+11	,	,	PUNCT	MID	_	14	punct	_	start_char=2090|end_char=2091|ner=O
+12	men	men	CCONJ	KN	_	14	cc	_	start_char=2092|end_char=2095|ner=O
+13	däremot	däremot	ADV	AB	_	14	advmod	_	start_char=2096|end_char=2103|ner=O
+14	tycker	tycka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=2104|end_char=2110|ner=O
+15	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	nsubj	_	start_char=2111|end_char=2114|ner=O
+16	att	att	SCONJ	SN	_	18	mark	_	start_char=2115|end_char=2118|ner=O
+17	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	18	expl	_	start_char=2119|end_char=2122|ner=O
+18	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	_	start_char=2123|end_char=2126|ner=O
+19	väldigt	väldig	ADV	AB|POS	Degree=Pos	20	advmod	_	start_char=2127|end_char=2134|ner=O
+20	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	start_char=2135|end_char=2141|ner=O
+21	energi	energi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obj	_	start_char=2142|end_char=2148|ner=O
+22	att	att	PART	IE	_	23	mark	_	start_char=2149|end_char=2152|ner=O
+23	hålla	hålla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	21	acl	_	start_char=2153|end_char=2158|ner=O
+24	upp	upp	ADV	PL	_	23	compound:prt	_	start_char=2159|end_char=2162|ner=O
+25	dörren	dörr	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	23	obj	_	start_char=2163|end_char=2169|ner=O
+26	för	för	ADP	PP	_	29	case	_	start_char=2170|end_char=2173|ner=O
+27	t.ex.	t.ex.	ADV	AB|AN	Abbr=Yes	29	advmod	_	start_char=2174|end_char=2179|ner=O
+28	mina	jag	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	29	nmod:poss	_	start_char=2180|end_char=2184|ner=O
+29	grannar	grann	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	23	obl	_	start_char=2185|end_char=2192|ner=O
+30	(	(	PUNCT	PAD	_	33	punct	_	start_char=2193|end_char=2194|ner=O|SpaceAfter=No
+31	och	och	CCONJ	KN	_	33	cc	_	start_char=2194|end_char=2197|ner=O
+32	tvärtom	tvärtom	ADV	AB	_	33	advmod	_	start_char=2198|end_char=2205|ner=O
+33	tycker	tycka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=2206|end_char=2212|ner=O
+34	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	33	nsubj	_	start_char=2213|end_char=2216|ner=O
+35	också	också	ADV	AB	_	33	advmod	_	start_char=2217|end_char=2222|ner=O
+36	att	att	SCONJ	SN	_	38	mark	_	start_char=2223|end_char=2226|ner=O
+37	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	38	nsubj	_	start_char=2227|end_char=2230|ner=O
+38	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	33	ccomp	_	start_char=2231|end_char=2234|ner=O
+39	energi	energi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	38	obj	_	start_char=2235|end_char=2241|ner=O
+40	när	när	SCONJ	HA	_	42	mark	_	start_char=2242|end_char=2245|ner=O
+41	andra	annan	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	42	nsubj	_	start_char=2246|end_char=2251|ner=O
+42	håller	hålla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	38	advcl	_	start_char=2252|end_char=2258|ner=O
+43	upp	upp	ADV	PL	_	42	compound:prt	_	start_char=2259|end_char=2262|ner=O
+44	dörrar	dörr	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	42	obj	_	start_char=2263|end_char=2269|ner=O
+45	för	för	ADP	PP	_	46	case	_	start_char=2270|end_char=2273|ner=O
+46	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	42	obl	_	start_char=2274|end_char=2277|ner=O|SpaceAfter=No
+47	)	)	PUNCT	PAD	_	2	punct	_	start_char=2277|end_char=2278|ner=O|SpaceAfter=No
+48	.	.	PUNCT	MAD	_	2	punct	_	start_char=2278|end_char=2279|ner=O|SpacesAfter=\n
+
+# text = Vi behöver förståelse
+# sent_id = 21
+1	Vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	2	nsubj	_	start_char=2280|end_char=2282|ner=O
+2	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=2283|end_char=2290|ner=O
+3	förståelse	förståelse	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	start_char=2291|end_char=2301|ner=O|SpacesAfter=\n
+
+# text = Faktum är att vi autister blir utmattade av saker som är ”småsaker” för neurotypiker!
+# sent_id = 22
+1	Faktum	faktum	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	start_char=2302|end_char=2308|ner=O
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=2309|end_char=2311|ner=O
+3	att	att	SCONJ	SN	_	7	mark	_	start_char=2312|end_char=2315|ner=O
+4	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	7	nsubj:pass	_	start_char=2316|end_char=2318|ner=O
+5	autister	autist	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	nsubj:pass	_	start_char=2319|end_char=2327|ner=O
+6	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	start_char=2328|end_char=2332|ner=O
+7	utmattade	utmatta	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	1	csubj	_	start_char=2333|end_char=2342|ner=O
+8	av	av	ADP	PP	_	9	case	_	start_char=2343|end_char=2345|ner=O
+9	saker	sak	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obl:agent	_	start_char=2346|end_char=2351|ner=O
+10	som	som	PRON	HP|-|-|-	PronType=Rel	12	nsubj	_	start_char=2352|end_char=2355|ner=O
+11	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=2356|end_char=2358|ner=O
+12	”småsaker”	”småsaker”	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	9	acl:relcl	_	start_char=2359|end_char=2369|ner=O
+13	för	för	ADP	PP	_	14	case	_	start_char=2370|end_char=2373|ner=O
+14	neurotypiker	neurotypiker	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	obl	_	start_char=2374|end_char=2386|ner=O|SpaceAfter=No
+15	!	!	PUNCT	MAD	_	1	punct	_	start_char=2386|end_char=2387|ner=O
+
+# text = På en vilodag kan en autist därför behöva slippa hälsa, hålla upp dörrar, plocka upp kläder från golvet och diska.
+# sent_id = 23
+1	På	på	ADP	PP	_	3	case	_	start_char=2388|end_char=2390|ner=O
+2	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	3	det	_	start_char=2391|end_char=2393|ner=O
+3	vilodag	vilodag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	_	start_char=2394|end_char=2401|ner=O
+4	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	start_char=2402|end_char=2405|ner=O
+5	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	det	_	start_char=2406|end_char=2408|ner=O
+6	autist	autist	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nsubj	_	start_char=2409|end_char=2415|ner=O
+7	därför	därför	ADV	AB	_	9	advmod	_	start_char=2416|end_char=2422|ner=O
+8	behöva	behöva	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	aux	_	start_char=2423|end_char=2429|ner=O
+9	slippa	slippa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=2430|end_char=2436|ner=O
+10	hälsa	hälsa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	_	start_char=2437|end_char=2442|ner=O|SpaceAfter=No
+11	,	,	PUNCT	MID	_	12	punct	_	start_char=2442|end_char=2443|ner=O
+12	hålla	hålla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	conj	_	start_char=2444|end_char=2449|ner=O
+13	upp	upp	ADV	PL	_	12	compound:prt	_	start_char=2450|end_char=2453|ner=O
+14	dörrar	dörr	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	obj	_	start_char=2454|end_char=2460|ner=O|SpaceAfter=No
+15	,	,	PUNCT	MID	_	16	punct	_	start_char=2460|end_char=2461|ner=O
+16	plocka	plocka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	conj	_	start_char=2462|end_char=2468|ner=O
+17	upp	upp	ADV	PL	_	16	compound:prt	_	start_char=2469|end_char=2472|ner=O
+18	kläder	kläder	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	obj	_	start_char=2473|end_char=2479|ner=O
+19	från	från	ADP	PP	_	20	case	_	start_char=2480|end_char=2484|ner=O
+20	golvet	golv	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	16	obl	_	start_char=2485|end_char=2491|ner=O
+21	och	och	CCONJ	KN	_	22	cc	_	start_char=2492|end_char=2495|ner=O
+22	diska	diska	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	20	conj	_	start_char=2496|end_char=2501|ner=O|SpaceAfter=No
+23	.	.	PUNCT	MAD	_	9	punct	_	start_char=2501|end_char=2502|ner=O
+
+# text = Problemet är ofta andra människor och deras krav.
+# sent_id = 24
+1	Problemet	problem	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	start_char=2503|end_char=2512|ner=O
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=2513|end_char=2515|ner=O
+3	ofta	ofta	ADV	AB|POS	Degree=Pos	1	advmod	_	start_char=2516|end_char=2520|ner=O
+4	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	start_char=2521|end_char=2526|ner=O
+5	människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	nsubj	_	start_char=2527|end_char=2536|ner=O
+6	och	och	CCONJ	KN	_	8	cc	_	start_char=2537|end_char=2540|ner=O
+7	deras	de	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=2541|end_char=2546|ner=O
+8	krav	krav	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	conj	_	start_char=2547|end_char=2551|ner=O|SpaceAfter=No
+9	.	.	PUNCT	MAD	_	1	punct	_	start_char=2551|end_char=2552|ner=O
+
+# text = Som ni förstår håller jag inte med om talesättet: ”ett leende kostar ingenting!” eller: ”det borde inte vara för mycket begärt att hålla upp dörren!”
+# sent_id = 25
+1	Som	som	SCONJ	HA	_	3	mark	_	start_char=2553|end_char=2556|ner=O
+2	ni	ni	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	start_char=2557|end_char=2559|ner=O
+3	förstår	förstå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=2560|end_char=2567|ner=O
+4	håller	hålla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=2568|end_char=2574|ner=O
+5	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	start_char=2575|end_char=2578|ner=O
+6	inte	inte	PART	AB	Polarity=Neg	4	advmod	_	start_char=2579|end_char=2583|ner=O
+7	med	med	ADP	PL	_	4	compound:prt	_	start_char=2584|end_char=2587|ner=O
+8	om	om	ADP	PP	_	9	case	_	start_char=2588|end_char=2590|ner=O
+9	talesättet	talesätt	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	obl	_	start_char=2591|end_char=2601|ner=O|SpaceAfter=No
+10	:	:	PUNCT	MID	_	4	punct	_	start_char=2601|end_char=2602|ner=O
+11	”ett	denna	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	12	det	_	start_char=2603|end_char=2607|ner=O
+12	leende	leende	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	nsubj	_	start_char=2608|end_char=2614|ner=O
+13	kostar	kosta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=2615|end_char=2621|ner=O
+14	ingenting	ingenting	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	13	obj	_	start_char=2622|end_char=2631|ner=O|SpaceAfter=No
+15	!	!	PUNCT	MAD	_	13	punct	_	start_char=2631|end_char=2632|ner=O|SpaceAfter=No
+16	”	)	PUNCT	MID	_	13	punct	_	start_char=2632|end_char=2633|ner=O
+17	eller	eller	CCONJ	KN	_	25	cc	_	start_char=2634|end_char=2639|ner=O|SpaceAfter=No
+18	:	:	PUNCT	MID	_	4	punct	_	start_char=2639|end_char=2640|ner=O
+19	”det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	25	expl	_	start_char=2641|end_char=2645|ner=O
+20	borde	böra	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	25	aux	_	start_char=2646|end_char=2651|ner=O
+21	inte	inte	PART	AB	Polarity=Neg	25	advmod	_	start_char=2652|end_char=2656|ner=O
+22	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	25	cop	_	start_char=2657|end_char=2661|ner=O
+23	för	för	ADV	AB	_	24	advmod	_	start_char=2662|end_char=2665|ner=O
+24	mycket	mycket	ADV	AB|POS	Degree=Pos	25	advmod	_	start_char=2666|end_char=2672|ner=O
+25	begärt	begärd	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	parataxis	_	start_char=2673|end_char=2679|ner=O
+26	att	att	PART	IE	_	27	mark	_	start_char=2680|end_char=2683|ner=O
+27	hålla	hålla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	25	csubj	_	start_char=2684|end_char=2689|ner=O
+28	upp	upp	ADV	PL	_	27	compound:prt	_	start_char=2690|end_char=2693|ner=O
+29	dörren	dörr	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	27	obj	_	start_char=2694|end_char=2700|ner=O|SpaceAfter=No
+30	!	!	PUNCT	MAD	_	25	punct	_	start_char=2700|end_char=2701|ner=O|SpaceAfter=No
+31	”	)	PUNCT	MAD	_	4	punct	_	start_char=2701|end_char=2702|ner=O
+
+# text = Vissa autister tycker att just sådant kostar väldigt mycket energi!
+# sent_id = 26
+1	Vissa	viss	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=2703|end_char=2708|ner=O
+2	autister	autist	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	_	start_char=2709|end_char=2717|ner=O
+3	tycker	tycka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=2718|end_char=2724|ner=O
+4	att	att	SCONJ	SN	_	7	mark	_	start_char=2725|end_char=2728|ner=O
+5	just	just	ADV	AB	_	6	advmod	_	start_char=2729|end_char=2733|ner=O
+6	sådant	sån	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	nsubj	_	start_char=2734|end_char=2740|ner=O
+7	kostar	kosta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=2741|end_char=2747|ner=O
+8	väldigt	väldig	ADV	AB|POS	Degree=Pos	9	advmod	_	start_char=2748|end_char=2755|ner=O
+9	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=2756|end_char=2762|ner=O
+10	energi	energi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obj	_	start_char=2763|end_char=2769|ner=O|SpaceAfter=No
+11	!	!	PUNCT	MAD	_	3	punct	_	start_char=2769|end_char=2770|ner=O
+
+# text = För att vi autister ska undvika utmattning måste vår omgivning vara förstående och acceptera att vi inte alltid orkar leva upp till deras förväntningar och krav!
+# sent_id = 27
+1	För	för	ADP	PP	_	6	mark	_	start_char=2771|end_char=2774|ner=O
+2	att	att	SCONJ	SN	_	1	fixed	_	start_char=2775|end_char=2778|ner=O
+3	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	6	nsubj	_	start_char=2779|end_char=2781|ner=O
+4	autister	autist	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	nsubj	_	start_char=2782|end_char=2790|ner=O
+5	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=2791|end_char=2794|ner=O
+6	undvika	undvika	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	advcl	_	start_char=2795|end_char=2802|ner=O
+7	utmattning	utmattning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obj	_	start_char=2803|end_char=2813|ner=O
+8	måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	start_char=2814|end_char=2819|ner=O
+9	vår	vi	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=2820|end_char=2823|ner=O
+10	omgivning	omgivning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nsubj	_	start_char=2824|end_char=2833|ner=O
+11	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	cop	_	start_char=2834|end_char=2838|ner=O
+12	förstående	förstående	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	0	root	_	start_char=2839|end_char=2849|ner=O
+13	och	och	CCONJ	KN	_	14	cc	_	start_char=2850|end_char=2853|ner=O
+14	acceptera	acceptera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	conj	_	start_char=2854|end_char=2863|ner=O
+15	att	att	SCONJ	SN	_	19	mark	_	start_char=2864|end_char=2867|ner=O
+16	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	19	nsubj	_	start_char=2868|end_char=2870|ner=O
+17	inte	inte	PART	AB	Polarity=Neg	19	advmod	_	start_char=2871|end_char=2875|ner=O
+18	alltid	alltid	ADV	AB	_	19	advmod	_	start_char=2876|end_char=2882|ner=O
+19	orkar	orka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	_	start_char=2883|end_char=2888|ner=O
+20	leva	leva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	19	xcomp	_	start_char=2889|end_char=2893|ner=O
+21	upp	upp	ADV	PL	_	20	compound:prt	_	start_char=2894|end_char=2897|ner=O
+22	till	till	ADP	PP	_	24	case	_	start_char=2898|end_char=2902|ner=O
+23	deras	de	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=2903|end_char=2908|ner=O
+24	förväntningar	förväntning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	20	obl	_	start_char=2909|end_char=2922|ner=O
+25	och	och	CCONJ	KN	_	26	cc	_	start_char=2923|end_char=2926|ner=O
+26	krav	krav	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	24	conj	_	start_char=2927|end_char=2931|ner=O|SpaceAfter=No
+27	!	!	PUNCT	MAD	_	12	punct	_	start_char=2931|end_char=2932|ner=O|SpacesAfter=\n\n\n
+

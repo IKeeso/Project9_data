@@ -1,0 +1,772 @@
+# text = ﻿Var finns psykologer med kompetens om autism?
+# sent_id = 0
+1	﻿	)	PUNCT	MID	_	3	punct	_	start_char=0|end_char=1|ner=O|SpaceAfter=No
+2	Var	var	ADV	HA	_	3	advmod	_	start_char=1|end_char=4|ner=O
+3	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=10|ner=O
+4	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	_	start_char=11|end_char=21|ner=O
+5	med	med	ADP	PP	_	6	case	_	start_char=22|end_char=25|ner=O
+6	kompetens	kompet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	start_char=26|end_char=35|ner=O
+7	om	om	ADP	PP	_	8	case	_	start_char=36|end_char=38|ner=O
+8	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nmod	_	start_char=39|end_char=45|ner=O|SpaceAfter=No
+9	?	?	PUNCT	MAD	_	3	punct	_	start_char=45|end_char=46|ner=O|SpacesAfter=\n
+
+# text = Dollan frågar
+# sent_id = 1
+1	Dollan	Dollan	PROPN	PM|NOM	Case=Nom	2	nsubj	_	start_char=47|end_char=53|ner=S-PER
+2	frågar	fråga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=54|end_char=60|ner=O|SpacesAfter=\n
+
+# text = Finns det autismkunniga psykologer förutom Bo Hejlskov Elvén i Sverige?
+# sent_id = 2
+1	Finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=61|end_char=66|ner=O
+2	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	1	expl	_	start_char=67|end_char=70|ner=O
+3	autismkunniga	autismkunnig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	start_char=71|end_char=84|ner=O
+4	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	nsubj	_	start_char=85|end_char=95|ner=O
+5	förutom	förutom	ADP	PP	_	6	case	_	start_char=96|end_char=103|ner=O
+6	Bo	Bo	PROPN	PM|NOM	Case=Nom	1	obl	_	start_char=104|end_char=106|ner=B-PER
+7	Hejlskov	Hejlskov	PROPN	PM|NOM	Case=Nom	6	flat:name	_	start_char=107|end_char=115|ner=I-PER
+8	Elvén	Elvén	PROPN	PM|NOM	Case=Nom	6	flat:name	_	start_char=116|end_char=121|ner=E-PER
+9	i	i	ADP	PP	_	10	case	_	start_char=122|end_char=123|ner=O
+10	Sverige	Sverige	PROPN	PM|NOM	Case=Nom	6	nmod	_	start_char=124|end_char=131|ner=S-LOC|SpaceAfter=No
+11	?	?	PUNCT	MAD	_	1	punct	_	start_char=131|end_char=132|ner=O
+
+# text = Var finns de?
+# sent_id = 3
+1	Var	var	ADV	HA	_	2	advmod	_	start_char=133|end_char=136|ner=O
+2	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=137|end_char=142|ner=O
+3	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	2	nsubj	_	start_char=143|end_char=145|ner=O|SpaceAfter=No
+4	?	?	PUNCT	MAD	_	2	punct	_	start_char=145|end_char=146|ner=O
+
+# text = Inte där jag bor i alla fall.
+# sent_id = 4
+1	Inte	inte	PART	AB	Polarity=Neg	4	advmod	_	start_char=147|end_char=151|ner=O
+2	där	där	ADV	HA	_	4	advmod	_	start_char=152|end_char=155|ner=O
+3	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	start_char=156|end_char=159|ner=O
+4	bor	bo	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=160|end_char=163|ner=O
+5	i	i	ADP	PP	_	7	case	_	start_char=164|end_char=165|ner=O
+6	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur|PronType=Tot	7	det	_	start_char=166|end_char=170|ner=O
+7	fall	fall	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	start_char=171|end_char=175|ner=O|SpaceAfter=No
+8	.	.	PUNCT	MAD	_	4	punct	_	start_char=175|end_char=176|ner=O|SpacesAfter=\n
+
+# text = Paula svarar
+# sent_id = 5
+1	Paula	Paula	PROPN	PM|NOM	Case=Nom	2	nsubj	_	start_char=177|end_char=182|ner=S-PER
+2	svarar	svara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=183|end_char=189|ner=O|SpacesAfter=\n
+
+# text = Vad tråkigt att det inte finns autismkunniga psykologer där du bor!
+# sent_id = 6
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	2	nsubj	_	start_char=190|end_char=193|ner=O
+2	tråkigt	tråkig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=194|end_char=201|ner=O
+3	att	att	SCONJ	SN	_	6	mark	_	start_char=202|end_char=205|ner=O
+4	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	6	expl	_	start_char=206|end_char=209|ner=O
+5	inte	inte	PART	AB	Polarity=Neg	6	advmod	_	start_char=210|end_char=214|ner=O
+6	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	2	csubj	_	start_char=215|end_char=220|ner=O
+7	autismkunniga	autismkunnig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	start_char=221|end_char=234|ner=O
+8	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	nsubj	_	start_char=235|end_char=245|ner=O
+9	där	där	ADV	HA	_	11	advmod	_	start_char=246|end_char=249|ner=O
+10	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj	_	start_char=250|end_char=252|ner=O
+11	bor	bo	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=253|end_char=256|ner=O|SpaceAfter=No
+12	!	!	PUNCT	MAD	_	2	punct	_	start_char=256|end_char=257|ner=O
+
+# text = Jag vet inte var du bor, men jag har själv träffat vissa psykologer som i alla fall kunnat tillräckligt mycket om autism för att kunna ge mig bra stöd.
+# sent_id = 7
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=258|end_char=261|ner=O
+2	vet	veta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=262|end_char=265|ner=O
+3	inte	inte	PART	AB	Polarity=Neg	2	advmod	_	start_char=266|end_char=270|ner=O
+4	var	vara	ADV	HA	_	6	advmod	_	start_char=271|end_char=274|ner=O
+5	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	start_char=275|end_char=277|ner=O
+6	bor	bo	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=278|end_char=281|ner=O|SpaceAfter=No
+7	,	,	PUNCT	MID	_	12	punct	_	start_char=281|end_char=282|ner=O
+8	men	men	CCONJ	KN	_	12	cc	_	start_char=283|end_char=286|ner=O
+9	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	_	start_char=287|end_char=290|ner=O
+10	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	start_char=291|end_char=294|ner=O
+11	själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	amod	_	start_char=295|end_char=300|ner=O
+12	träffat	träffa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	2	conj	_	start_char=301|end_char=308|ner=O
+13	vissa	viss	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	start_char=309|end_char=314|ner=O
+14	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	obj	_	start_char=315|end_char=325|ner=O
+15	som	som	PRON	HP|-|-|-	PronType=Rel	20	nsubj	_	start_char=326|end_char=329|ner=O
+16	i	i	ADP	PP	_	18	case	_	start_char=330|end_char=331|ner=O
+17	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur|PronType=Tot	18	det	_	start_char=332|end_char=336|ner=O
+18	fall	fall	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	20	obl	_	start_char=337|end_char=341|ner=O
+19	kunnat	kunna	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	20	aux	_	start_char=342|end_char=348|ner=O
+20	tillräckligt	tillräcklig	ADV	AB|POS	Degree=Pos	14	acl:relcl	_	start_char=349|end_char=361|ner=O
+21	mycket	mycket	ADV	AB|POS	Degree=Pos	20	advmod	_	start_char=362|end_char=368|ner=O
+22	om	om	ADP	PP	_	23	case	_	start_char=369|end_char=371|ner=O
+23	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	obl	_	start_char=372|end_char=378|ner=O
+24	för	för	ADP	PP	_	27	mark	_	start_char=379|end_char=382|ner=O
+25	att	att	PART	IE	_	27	mark	_	start_char=383|end_char=386|ner=O
+26	kunna	kunna	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	27	aux	_	start_char=387|end_char=392|ner=O
+27	ge	ge	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	20	advcl	_	start_char=393|end_char=395|ner=O
+28	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	27	iobj	_	start_char=396|end_char=399|ner=O
+29	bra	bra	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	30	amod	_	start_char=400|end_char=403|ner=O
+30	stöd	stöd	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	27	obj	_	start_char=404|end_char=408|ner=O|SpaceAfter=No
+31	.	.	PUNCT	MAD	_	2	punct	_	start_char=408|end_char=409|ner=O
+
+# text = För första gången träffade jag riktigt autismkunniga psykologer på Sankt Görans neuropsykiatriska enhet i Stockholm som ej längre finns kvar, men de sysslade även med autismutredningar.
+# sent_id = 8
+1	För	för	ADP	PP	_	3	case	_	start_char=410|end_char=413|ner=B-MSR
+2	första	en	ADJ	RO|NOM	Case=Nom	3	amod	_	start_char=414|end_char=420|ner=I-MSR
+3	gången	gång	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	_	start_char=421|end_char=427|ner=E-MSR
+4	träffade	träffa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=428|end_char=436|ner=O
+5	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	start_char=437|end_char=440|ner=O
+6	riktigt	riktig	ADV	AB	_	7	advmod	_	start_char=441|end_char=448|ner=O
+7	autismkunniga	autismkunnig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	start_char=449|end_char=462|ner=O
+8	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	obj	_	start_char=463|end_char=473|ner=O
+9	på	på	ADP	PP	_	13	case	_	start_char=474|end_char=476|ner=O
+10	Sankt	Sankt	PROPN	PM|NOM	Case=Nom	13	nmod:poss	_	start_char=477|end_char=482|ner=B-LOC
+11	Görans	Görans	PROPN	PM|GEN	Case=Gen	10	flat:name	_	start_char=483|end_char=489|ner=E-LOC
+12	neuropsykiatriska	neuropsykiatrisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	amod	_	start_char=490|end_char=507|ner=O
+13	enhet	enhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	start_char=508|end_char=513|ner=O
+14	i	i	ADP	PP	_	15	case	_	start_char=514|end_char=515|ner=O
+15	Stockholm	Stockholm	PROPN	PM|NOM	Case=Nom	13	nmod	_	start_char=516|end_char=525|ner=S-LOC
+16	som	som	PRON	HP|-|-|-	PronType=Rel	19	nsubj	_	start_char=526|end_char=529|ner=O
+17	ej	ej	PART	AB	Polarity=Neg	19	advmod	_	start_char=530|end_char=532|ner=O
+18	längre	länge	ADV	AB|KOM	Degree=Cmp	19	advmod	_	start_char=533|end_char=539|ner=O
+19	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	start_char=540|end_char=545|ner=O
+20	kvar	kvar	ADV	PL	_	19	compound:prt	_	start_char=546|end_char=550|ner=O|SpaceAfter=No
+21	,	,	PUNCT	MID	_	24	punct	_	start_char=550|end_char=551|ner=O
+22	men	men	CCONJ	KN	_	24	cc	_	start_char=552|end_char=555|ner=O
+23	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	24	nsubj	_	start_char=556|end_char=558|ner=O
+24	sysslade	syssla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=559|end_char=567|ner=O
+25	även	även	ADV	AB	_	24	advmod	_	start_char=568|end_char=572|ner=O
+26	med	med	ADP	PP	_	27	case	_	start_char=573|end_char=576|ner=O
+27	autismutredningar	autismutredning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	24	obl	_	start_char=577|end_char=594|ner=O|SpaceAfter=No
+28	.	.	PUNCT	MAD	_	4	punct	_	start_char=594|end_char=595|ner=O
+
+# text = Jag fick prata med en av deras psykologer som lärde mig att förstå mig själv.
+# sent_id = 9
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	start_char=596|end_char=599|ner=O
+2	fick	få	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	start_char=600|end_char=604|ner=O
+3	prata	prata	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=605|end_char=610|ner=O
+4	med	med	ADP	PP	_	5	case	_	start_char=611|end_char=614|ner=O
+5	en	man	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Prs	3	obl	_	start_char=615|end_char=617|ner=O
+6	av	av	ADP	PP	_	8	case	_	start_char=618|end_char=620|ner=O
+7	deras	de	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=621|end_char=626|ner=O
+8	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	nmod	_	start_char=627|end_char=637|ner=O
+9	som	som	PRON	HP|-|-|-	PronType=Rel	10	nsubj	_	start_char=638|end_char=641|ner=O
+10	lärde	lära	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=642|end_char=647|ner=O
+11	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	obj	_	start_char=648|end_char=651|ner=O
+12	att	att	PART	IE	_	13	mark	_	start_char=652|end_char=655|ner=O
+13	förstå	förstå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	advcl	_	start_char=656|end_char=662|ner=O
+14	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	obj	_	start_char=663|end_char=666|ner=O
+15	själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	acl	_	start_char=667|end_char=672|ner=O|SpaceAfter=No
+16	.	.	PUNCT	MAD	_	3	punct	_	start_char=672|end_char=673|ner=O
+
+# text = Tack vare henne började jag förstå hur jag skiljer mig från en genomsnittlig neurotypiker.
+# sent_id = 10
+1	Tack	tack	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	case	_	start_char=674|end_char=678|ner=O
+2	vare	vara	VERB	VB|KON|PRS|AKT	Mood=Sub|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	start_char=679|end_char=683|ner=O
+3	henne	hon	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	4	obl	_	start_char=684|end_char=689|ner=O
+4	började	börja	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=690|end_char=697|ner=O
+5	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	start_char=698|end_char=701|ner=O
+6	förstå	förstå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=702|end_char=708|ner=O
+7	hur	hur	ADV	HA	_	9	advmod	_	start_char=709|end_char=712|ner=O
+8	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj	_	start_char=713|end_char=716|ner=O
+9	skiljer	skilja	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	start_char=717|end_char=724|ner=O
+10	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	obj	_	start_char=725|end_char=728|ner=O
+11	från	från	ADP	PP	_	14	case	_	start_char=729|end_char=733|ner=O
+12	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	14	det	_	start_char=734|end_char=736|ner=O
+13	genomsnittlig	genomsnittlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	start_char=737|end_char=750|ner=O
+14	neurotypiker	neurotypiker	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	_	start_char=751|end_char=763|ner=O|SpaceAfter=No
+15	.	.	PUNCT	MAD	_	4	punct	_	start_char=763|end_char=764|ner=O|SpacesAfter=\n
+
+# text = Var nöjd med habiliteringen
+# sent_id = 11
+1	Var	var	ADV	HA	_	2	advmod	_	start_char=765|end_char=768|ner=O
+2	nöjd	nöja	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	start_char=769|end_char=773|ner=O
+3	med	med	ADP	PP	_	4	case	_	start_char=774|end_char=777|ner=O
+4	habiliteringen	habilitering	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	start_char=778|end_char=792|ner=O|SpacesAfter=\n
+
+# text = Därefter träffade jag en underbar psykolog på habiliteringen.
+# sent_id = 12
+1	Därefter	därefter	ADV	AB	_	2	advmod	_	start_char=793|end_char=801|ner=O
+2	träffade	träffa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=802|end_char=810|ner=O
+3	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=811|end_char=814|ner=O
+4	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	det	_	start_char=815|end_char=817|ner=O
+5	underbar	underbar	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	start_char=818|end_char=826|ner=O
+6	psykolog	psykolog	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	start_char=827|end_char=835|ner=O
+7	på	på	ADP	PP	_	8	case	_	start_char=836|end_char=838|ner=O
+8	habiliteringen	habilitering	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	start_char=839|end_char=853|ner=O|SpaceAfter=No
+9	.	.	PUNCT	MAD	_	2	punct	_	start_char=853|end_char=854|ner=O
+
+# text = Hon förklarade för mig varför jag blir utmattad av städning och fick mig att inse att jag inte behöver leva på ett sätt som neurotypiker förväntar sig av mig och att neurotypikerna inte måste ha rätt även om de utgör majoriteten.
+# sent_id = 13
+1	Hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=855|end_char=858|ner=O
+2	förklarade	förklara	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=859|end_char=869|ner=O
+3	för	för	ADP	PP	_	4	case	_	start_char=870|end_char=873|ner=O
+4	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	obl	_	start_char=874|end_char=877|ner=O
+5	varför	varför	ADV	HA	_	8	advmod	_	start_char=878|end_char=884|ner=O
+6	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	start_char=885|end_char=888|ner=O
+7	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	start_char=889|end_char=893|ner=O
+8	utmattad	utmattad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	start_char=894|end_char=902|ner=O
+9	av	av	ADP	PP	_	10	case	_	start_char=903|end_char=905|ner=O
+10	städning	städning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obl:agent	_	start_char=906|end_char=914|ner=O
+11	och	och	CCONJ	KN	_	12	cc	_	start_char=915|end_char=918|ner=O
+12	fick	få	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=919|end_char=923|ner=O
+13	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	obj	_	start_char=924|end_char=927|ner=O
+14	att	att	PART	IE	_	15	mark	_	start_char=928|end_char=931|ner=O
+15	inse	inse	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	xcomp	_	start_char=932|end_char=936|ner=O
+16	att	att	SCONJ	SN	_	20	mark	_	start_char=937|end_char=940|ner=O
+17	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	nsubj	_	start_char=941|end_char=944|ner=O
+18	inte	inte	PART	AB	Polarity=Neg	20	advmod	_	start_char=945|end_char=949|ner=O
+19	behöver	behöva	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	start_char=950|end_char=957|ner=O
+20	leva	leva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	15	ccomp	_	start_char=958|end_char=962|ner=O
+21	på	på	ADP	PP	_	23	case	_	start_char=963|end_char=965|ner=O
+22	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	23	det	_	start_char=966|end_char=969|ner=O
+23	sätt	sätt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	start_char=970|end_char=974|ner=O
+24	som	som	PRON	HP|-|-|-	PronType=Rel	26	obj	_	start_char=975|end_char=978|ner=O
+25	neurotypiker	neurotypiker	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	26	nsubj	_	start_char=979|end_char=991|ner=O
+26	förväntar	förvänta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	start_char=992|end_char=1001|ner=O
+27	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	26	obj	_	start_char=1002|end_char=1005|ner=O
+28	av	av	ADP	PP	_	29	case	_	start_char=1006|end_char=1008|ner=O
+29	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	26	obl	_	start_char=1009|end_char=1012|ner=O
+30	och	och	CCONJ	KN	_	35	cc	_	start_char=1013|end_char=1016|ner=O
+31	att	att	SCONJ	SN	_	35	mark	_	start_char=1017|end_char=1020|ner=O
+32	neurotypikerna	neurotypik	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	35	nsubj	_	start_char=1021|end_char=1035|ner=O
+33	inte	inte	PART	AB	Polarity=Neg	35	advmod	_	start_char=1036|end_char=1040|ner=O
+34	måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	35	aux	_	start_char=1041|end_char=1046|ner=O
+35	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	20	conj	_	start_char=1047|end_char=1049|ner=O
+36	rätt	rätt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	35	obj	_	start_char=1050|end_char=1054|ner=O
+37	även	även	ADV	AB	_	40	mark	_	start_char=1055|end_char=1059|ner=O
+38	om	om	SCONJ	SN	_	37	fixed	_	start_char=1060|end_char=1062|ner=O
+39	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	40	nsubj	_	start_char=1063|end_char=1065|ner=O
+40	utgör	utgöra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	35	advcl	_	start_char=1066|end_char=1071|ner=O
+41	majoriteten	majoritet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	40	obj	_	start_char=1072|end_char=1083|ner=O|SpaceAfter=No
+42	.	.	PUNCT	MAD	_	2	punct	_	start_char=1083|end_char=1084|ner=O
+
+# text = Att det är helt okej att ha hemtjänst (vilket jag hade på den tiden) som städar åt mig och att jag till skillnad från vad många påstår inte alls behöver lära mig strategier för att lära mig att städa eftersom det gör mig utmattad.
+# sent_id = 14
+1	Att	att	SCONJ	SN	_	5	mark	_	start_char=1085|end_char=1088|ner=O
+2	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	5	expl	_	start_char=1089|end_char=1092|ner=O
+3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=1093|end_char=1095|ner=O
+4	helt	helt	ADV	AB|POS	Degree=Pos	5	advmod	_	start_char=1096|end_char=1100|ner=O
+5	okej	okej	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=1101|end_char=1105|ner=O
+6	att	att	PART	IE	_	7	mark	_	start_char=1106|end_char=1109|ner=O
+7	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	csubj	_	start_char=1110|end_char=1112|ner=O
+8	hemtjänst	hemtjänst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obj	_	start_char=1113|end_char=1122|ner=O
+9	(	(	PUNCT	PAD	_	5	punct	_	start_char=1123|end_char=1124|ner=O|SpaceAfter=No
+10	vilket	vilken	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	12	obj	_	start_char=1124|end_char=1130|ner=O
+11	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	_	start_char=1131|end_char=1134|ner=O
+12	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	csubj	_	start_char=1135|end_char=1139|ner=O
+13	på	på	ADP	PP	_	15	case	_	start_char=1140|end_char=1142|ner=B-TME
+14	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	15	det	_	start_char=1143|end_char=1146|ner=I-TME
+15	tiden	tid	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obl	_	start_char=1147|end_char=1152|ner=E-TME|SpaceAfter=No
+16	)	)	PUNCT	PAD	_	5	punct	_	start_char=1152|end_char=1153|ner=O
+17	som	som	PRON	HP|-|-|-	PronType=Rel	18	nsubj	_	start_char=1154|end_char=1157|ner=O
+18	städar	städa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:cleft	_	start_char=1158|end_char=1164|ner=O
+19	åt	åt	ADP	PP	_	20	case	_	start_char=1165|end_char=1167|ner=O
+20	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	obl	_	start_char=1168|end_char=1171|ner=O
+21	och	och	CCONJ	KN	_	33	cc	_	start_char=1172|end_char=1175|ner=O
+22	att	att	SCONJ	SN	_	33	mark	_	start_char=1176|end_char=1179|ner=O
+23	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	33	nsubj	_	start_char=1180|end_char=1183|ner=O
+24	till	till	ADP	PP	_	27	case	_	start_char=1184|end_char=1188|ner=O
+25	skillnad	skillnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	fixed	_	start_char=1189|end_char=1197|ner=O
+26	från	från	ADP	PP	_	24	fixed	_	start_char=1198|end_char=1202|ner=O
+27	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	33	obl	_	start_char=1203|end_char=1206|ner=O
+28	många	mången	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	29	nsubj	_	start_char=1207|end_char=1212|ner=O
+29	påstår	påstå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	acl:relcl	_	start_char=1213|end_char=1219|ner=O
+30	inte	inte	PART	AB	Polarity=Neg	33	advmod	_	start_char=1220|end_char=1224|ner=O
+31	alls	alls	ADV	AB	_	33	advmod	_	start_char=1225|end_char=1229|ner=O
+32	behöver	behöva	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	33	aux	_	start_char=1230|end_char=1237|ner=O
+33	lära	lära	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	18	advcl	_	start_char=1238|end_char=1242|ner=O
+34	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	33	iobj	_	start_char=1243|end_char=1246|ner=O
+35	strategier	strategium	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	33	obj	_	start_char=1247|end_char=1257|ner=O
+36	för	för	ADP	PP	_	38	mark	_	start_char=1258|end_char=1261|ner=O
+37	att	att	PART	IE	_	38	mark	_	start_char=1262|end_char=1265|ner=O
+38	lära	lära	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	33	advcl	_	start_char=1266|end_char=1270|ner=O
+39	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	38	obj	_	start_char=1271|end_char=1274|ner=O
+40	att	att	PART	IE	_	41	mark	_	start_char=1275|end_char=1278|ner=O
+41	städa	städa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	38	xcomp	_	start_char=1279|end_char=1284|ner=O
+42	eftersom	eftersom	SCONJ	SN	_	44	mark	_	start_char=1285|end_char=1293|ner=O
+43	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	44	nsubj	_	start_char=1294|end_char=1297|ner=O
+44	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	38	advcl	_	start_char=1298|end_char=1301|ner=O
+45	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	44	obj	_	start_char=1302|end_char=1305|ner=O
+46	utmattad	utmattad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	44	xcomp	_	start_char=1306|end_char=1314|ner=O|SpaceAfter=No
+47	.	.	PUNCT	MAD	_	5	punct	_	start_char=1314|end_char=1315|ner=O
+
+# text = Och att ”alla människor inte alls mår bäst av att jobba”.
+# sent_id = 15
+1	Och	och	CCONJ	KN	_	7	cc	_	start_char=1316|end_char=1319|ner=O
+2	att	att	SCONJ	SN	_	7	mark	_	start_char=1320|end_char=1323|ner=O
+3	”alla	sall	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur|PronType=Tot	4	det	_	start_char=1324|end_char=1329|ner=O
+4	människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	nsubj	_	start_char=1330|end_char=1339|ner=O
+5	inte	inte	PART	AB	Polarity=Neg	7	advmod	_	start_char=1340|end_char=1344|ner=O
+6	alls	alls	ADV	AB	_	7	advmod	_	start_char=1345|end_char=1349|ner=O
+7	mår	må	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1350|end_char=1353|ner=O
+8	bäst	bra	ADV	AB|SUV	Degree=Sup	7	advmod	_	start_char=1354|end_char=1358|ner=O
+9	av	av	ADP	PP	_	11	mark	_	start_char=1359|end_char=1361|ner=O
+10	att	att	PART	IE	_	11	mark	_	start_char=1362|end_char=1365|ner=O
+11	jobba”	jobba”	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	advcl	_	start_char=1366|end_char=1372|ner=O|SpaceAfter=No
+12	.	.	PUNCT	MAD	_	7	punct	_	start_char=1372|end_char=1373|ner=O
+
+# text = Tack vare hennes stöd förstod jag att jag inte behöver ha dåligt samvete för mina svårigheter.
+# sent_id = 16
+1	Tack	tack	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	case	_	start_char=1374|end_char=1378|ner=O
+2	vare	vara	VERB	VB|KON|PRS|AKT	Mood=Sub|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	start_char=1379|end_char=1383|ner=O
+3	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=1384|end_char=1390|ner=O
+4	stöd	stöd	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	start_char=1391|end_char=1395|ner=O
+5	förstod	förstå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1396|end_char=1403|ner=O
+6	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	_	start_char=1404|end_char=1407|ner=O
+7	att	att	SCONJ	SN	_	11	mark	_	start_char=1408|end_char=1411|ner=O
+8	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj	_	start_char=1412|end_char=1415|ner=O
+9	inte	inte	PART	AB	Polarity=Neg	11	advmod	_	start_char=1416|end_char=1420|ner=O
+10	behöver	behöva	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=1421|end_char=1428|ner=O
+11	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	ccomp	_	start_char=1429|end_char=1431|ner=O
+12	dåligt	dålig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=1432|end_char=1438|ner=O
+13	samvete	samvete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	start_char=1439|end_char=1446|ner=O
+14	för	för	ADP	PP	_	16	case	_	start_char=1447|end_char=1450|ner=O
+15	mina	jag	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=1451|end_char=1455|ner=O
+16	svårigheter	svårighet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	obl	_	start_char=1456|end_char=1467|ner=O|SpaceAfter=No
+17	.	.	PUNCT	MAD	_	5	punct	_	start_char=1467|end_char=1468|ner=O|SpacesAfter=\n
+
+# text = Har även träffat andra psykologer
+# sent_id = 17
+1	Har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=1469|end_char=1472|ner=O
+2	även	även	ADV	AB	_	3	advmod	_	start_char=1473|end_char=1477|ner=O
+3	träffat	träffa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=1478|end_char=1485|ner=O
+4	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	start_char=1486|end_char=1491|ner=O
+5	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obj	_	start_char=1492|end_char=1502|ner=O|SpacesAfter=\n
+
+# text = Efter kontakten med habiliteringen har jag träffat ett par psykologer som förstått mig: vårdcentralen hade en psykolog som hjälpte mig att förstå att jag inte behöver ha dåligt samvete för att inte orka med sociala kontakter samt att man till skillnad från vad jag trodde inte alls är skyldig att ha väninnor!
+# sent_id = 18
+1	Efter	efter	ADP	PP	_	2	case	_	start_char=1503|end_char=1508|ner=O
+2	kontakten	kontakt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	obl	_	start_char=1509|end_char=1518|ner=O
+3	med	med	ADP	PP	_	4	case	_	start_char=1519|end_char=1522|ner=O
+4	habiliteringen	habilitering	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nmod	_	start_char=1523|end_char=1537|ner=O
+5	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=1538|end_char=1541|ner=O
+6	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	nsubj	_	start_char=1542|end_char=1545|ner=O
+7	träffat	träffa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=1546|end_char=1553|ner=O
+8	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=1554|end_char=1557|ner=O
+9	par	par	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	start_char=1558|end_char=1561|ner=O
+10	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obj	_	start_char=1562|end_char=1572|ner=O
+11	som	som	PRON	HP|-|-|-	PronType=Rel	12	nsubj	_	start_char=1573|end_char=1576|ner=O
+12	förstått	förstå	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	10	acl:relcl	_	start_char=1577|end_char=1585|ner=O
+13	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	obj	_	start_char=1586|end_char=1589|ner=O|SpaceAfter=No
+14	:	:	PUNCT	MAD	_	7	punct	_	start_char=1589|end_char=1590|ner=O
+15	vårdcentralen	vårdcentral	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	nsubj	_	start_char=1591|end_char=1604|ner=O
+16	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	start_char=1605|end_char=1609|ner=O
+17	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	18	det	_	start_char=1610|end_char=1612|ner=O
+18	psykolog	psykolog	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obj	_	start_char=1613|end_char=1621|ner=O
+19	som	som	PRON	HP|-|-|-	PronType=Rel	20	nsubj	_	start_char=1622|end_char=1625|ner=O
+20	hjälpte	hjälpa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	acl:relcl	_	start_char=1626|end_char=1633|ner=O
+21	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	obj	_	start_char=1634|end_char=1637|ner=O
+22	att	att	PART	IE	_	23	mark	_	start_char=1638|end_char=1641|ner=O
+23	förstå	förstå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	20	advcl	_	start_char=1642|end_char=1648|ner=O
+24	att	att	SCONJ	SN	_	28	mark	_	start_char=1649|end_char=1652|ner=O
+25	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	28	nsubj	_	start_char=1653|end_char=1656|ner=O
+26	inte	inte	PART	AB	Polarity=Neg	28	advmod	_	start_char=1657|end_char=1661|ner=O
+27	behöver	behöva	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux	_	start_char=1662|end_char=1669|ner=O
+28	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	23	ccomp	_	start_char=1670|end_char=1672|ner=O
+29	dåligt	dålig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	start_char=1673|end_char=1679|ner=O
+30	samvete	samvete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	28	obj	_	start_char=1680|end_char=1687|ner=O
+31	för	för	ADP	PP	_	34	mark	_	start_char=1688|end_char=1691|ner=O
+32	att	att	PART	IE	_	34	mark	_	start_char=1692|end_char=1695|ner=O
+33	inte	inte	PART	AB	Polarity=Neg	34	advmod	_	start_char=1696|end_char=1700|ner=O
+34	orka	orka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	28	advcl	_	start_char=1701|end_char=1705|ner=O
+35	med	med	ADP	PP	_	37	case	_	start_char=1706|end_char=1709|ner=O
+36	sociala	social	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	37	amod	_	start_char=1710|end_char=1717|ner=O
+37	kontakter	kontakt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	34	obl	_	start_char=1718|end_char=1727|ner=O
+38	samt	samt	CCONJ	KN	_	44	cc	_	start_char=1728|end_char=1732|ner=O
+39	att	att	SCONJ	SN	_	50	mark	_	start_char=1733|end_char=1736|ner=O
+40	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	50	nsubj	_	start_char=1737|end_char=1740|ner=O
+41	till	till	ADP	PP	_	44	case	_	start_char=1741|end_char=1745|ner=O
+42	skillnad	skillnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	41	fixed	_	start_char=1746|end_char=1754|ner=O
+43	från	från	ADP	PP	_	41	fixed	_	start_char=1755|end_char=1759|ner=O
+44	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	34	obl	_	start_char=1760|end_char=1763|ner=O
+45	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	46	nsubj	_	start_char=1764|end_char=1767|ner=O
+46	trodde	tro	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	44	acl:relcl	_	start_char=1768|end_char=1774|ner=O
+47	inte	inte	PART	AB	Polarity=Neg	50	advmod	_	start_char=1775|end_char=1779|ner=O
+48	alls	alls	ADV	AB	_	50	advmod	_	start_char=1780|end_char=1784|ner=O
+49	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	50	cop	_	start_char=1785|end_char=1787|ner=O
+50	skyldig	skyldig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	44	acl:relcl	_	start_char=1788|end_char=1795|ner=O
+51	att	att	PART	IE	_	52	mark	_	start_char=1796|end_char=1799|ner=O
+52	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	50	advcl	_	start_char=1800|end_char=1802|ner=O
+53	väninnor	väninna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	52	obj	_	start_char=1803|end_char=1811|ner=O|SpaceAfter=No
+54	!	!	PUNCT	MAD	_	7	punct	_	start_char=1811|end_char=1812|ner=O
+
+# text = Och detta även om det skulle en massa kvinnor som gärna skulle vilja umgås med en.
+# sent_id = 19
+1	Och	och	CCONJ	KN	_	2	cc	_	start_char=1813|end_char=1816|ner=O
+2	detta	denna	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	start_char=1817|end_char=1822|ner=O
+3	även	även	ADV	AB	_	9	mark	_	start_char=1823|end_char=1827|ner=O
+4	om	om	SCONJ	SN	_	3	fixed	_	start_char=1828|end_char=1830|ner=O
+5	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	9	expl	_	start_char=1831|end_char=1834|ner=O
+6	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	start_char=1835|end_char=1841|ner=O
+7	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	8	det	_	start_char=1842|end_char=1844|ner=O
+8	massa	massa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	start_char=1845|end_char=1850|ner=O
+9	kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	advcl	_	start_char=1851|end_char=1858|ner=O
+10	som	som	PRON	HP|-|-|-	PronType=Rel	14	nsubj	_	start_char=1859|end_char=1862|ner=O
+11	gärna	gärna	ADV	AB|POS	Degree=Pos	14	advmod	_	start_char=1863|end_char=1868|ner=O
+12	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	start_char=1869|end_char=1875|ner=O
+13	vilja	vilja	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	aux	_	start_char=1876|end_char=1881|ner=O
+14	umgås	umgå	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	9	acl:relcl	_	start_char=1882|end_char=1887|ner=O
+15	med	med	ADP	PP	_	16	case	_	start_char=1888|end_char=1891|ner=O
+16	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|NumType=Card|Number=Sing	14	obl	_	start_char=1892|end_char=1894|ner=O|SpaceAfter=No
+17	.	.	PUNCT	MAD	_	2	punct	_	start_char=1894|end_char=1895|ner=O
+
+# text = Sedan hade jag också kontakt med en psykolog online via Mindler som fortsatte att ge mig samtalsstöd.
+# sent_id = 20
+1	Sedan	sedan	ADV	AB	_	2	advmod	_	start_char=1896|end_char=1901|ner=O
+2	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1902|end_char=1906|ner=O
+3	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=1907|end_char=1910|ner=O
+4	också	också	ADV	AB	_	2	advmod	_	start_char=1911|end_char=1916|ner=O
+5	kontakt	kontakt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	start_char=1917|end_char=1924|ner=O
+6	med	med	ADP	PP	_	8	case	_	start_char=1925|end_char=1928|ner=O
+7	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	8	det	_	start_char=1929|end_char=1931|ner=O
+8	psykolog	psykolog	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	start_char=1932|end_char=1940|ner=O
+9	online	online	ADV	AB	_	8	nmod	_	start_char=1941|end_char=1947|ner=O
+10	via	via	ADP	PP	_	11	case	_	start_char=1948|end_char=1951|ner=O
+11	Mindler	Mindler	PROPN	PM|NOM	Case=Nom	9	obl	_	start_char=1952|end_char=1959|ner=S-PER
+12	som	som	PRON	HP|-|-|-	PronType=Rel	13	nsubj	_	start_char=1960|end_char=1963|ner=O
+13	fortsatte	fortsätta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=1964|end_char=1973|ner=O
+14	att	att	PART	IE	_	15	mark	_	start_char=1974|end_char=1977|ner=O
+15	ge	ge	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	advcl	_	start_char=1978|end_char=1980|ner=O
+16	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	iobj	_	start_char=1981|end_char=1984|ner=O
+17	samtalsstöd	samtalsstöd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	obj	_	start_char=1985|end_char=1996|ner=O|SpaceAfter=No
+18	.	.	PUNCT	MAD	_	2	punct	_	start_char=1996|end_char=1997|ner=O
+
+# text = Hon talade bland annat om för mig att det var en myt att alla människor behöver vänner samt att jag inte är skyldig att svara på privata mail och SMS jag får eftersom jag redan förklarat på Facebook att jag inte orkar ha privata kontakter.
+# sent_id = 21
+1	Hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=1998|end_char=2001|ner=O
+2	talade	tala	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=2002|end_char=2008|ner=O
+3	bland	bland	ADP	PP	_	2	advmod	_	start_char=2009|end_char=2014|ner=O
+4	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	3	fixed	_	start_char=2015|end_char=2020|ner=O
+5	om	om	ADP	PP	_	12	mark	_	start_char=2021|end_char=2023|ner=O
+6	för	för	ADP	PP	_	7	case	_	start_char=2024|end_char=2027|ner=O
+7	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	obl	_	start_char=2028|end_char=2031|ner=O
+8	att	att	SCONJ	SN	_	12	mark	_	start_char=2032|end_char=2035|ner=O
+9	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	12	expl	_	start_char=2036|end_char=2039|ner=O
+10	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	start_char=2040|end_char=2043|ner=O
+11	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	det	_	start_char=2044|end_char=2046|ner=O
+12	myt	myt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	ccomp	_	start_char=2047|end_char=2050|ner=O
+13	att	att	SCONJ	SN	_	16	mark	_	start_char=2051|end_char=2054|ner=O
+14	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur|PronType=Tot	15	det	_	start_char=2055|end_char=2059|ner=O
+15	människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	nsubj	_	start_char=2060|end_char=2069|ner=O
+16	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	csubj	_	start_char=2070|end_char=2077|ner=O
+17	vänner	vänna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	obj	_	start_char=2078|end_char=2084|ner=O
+18	samt	samt	CCONJ	KN	_	23	cc	_	start_char=2085|end_char=2089|ner=O
+19	att	att	SCONJ	SN	_	23	mark	_	start_char=2090|end_char=2093|ner=O
+20	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	nsubj	_	start_char=2094|end_char=2097|ner=O
+21	inte	inte	PART	AB	Polarity=Neg	23	advmod	_	start_char=2098|end_char=2102|ner=O
+22	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	_	start_char=2103|end_char=2105|ner=O
+23	skyldig	skyldig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	conj	_	start_char=2106|end_char=2113|ner=O
+24	att	att	PART	IE	_	25	mark	_	start_char=2114|end_char=2117|ner=O
+25	svara	svara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	23	advcl	_	start_char=2118|end_char=2123|ner=O
+26	på	på	ADP	PP	_	28	case	_	start_char=2124|end_char=2126|ner=O
+27	privata	privat	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	start_char=2127|end_char=2134|ner=O
+28	mail	mail	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	25	obl	_	start_char=2135|end_char=2139|ner=O
+29	och	och	CCONJ	KN	_	30	cc	_	start_char=2140|end_char=2143|ner=O
+30	SMS	SMS	PROPN	PM|NOM	Case=Nom	28	conj	_	start_char=2144|end_char=2147|ner=S-ORG
+31	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	32	nsubj	_	start_char=2148|end_char=2151|ner=O
+32	får	få	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	30	acl:relcl	_	start_char=2152|end_char=2155|ner=O
+33	eftersom	eftersom	SCONJ	SN	_	36	mark	_	start_char=2156|end_char=2164|ner=O
+34	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	36	nsubj	_	start_char=2165|end_char=2168|ner=O
+35	redan	redan	ADV	AB	_	36	advmod	_	start_char=2169|end_char=2174|ner=O
+36	förklarat	förklara	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	23	advcl	_	start_char=2175|end_char=2184|ner=O
+37	på	på	ADP	PP	_	38	case	_	start_char=2185|end_char=2187|ner=O
+38	Facebook	Facebook	PROPN	PM|NOM	Case=Nom	36	obl	_	start_char=2188|end_char=2196|ner=S-ORG
+39	att	att	SCONJ	SN	_	42	mark	_	start_char=2197|end_char=2200|ner=O
+40	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	42	nsubj	_	start_char=2201|end_char=2204|ner=O
+41	inte	inte	PART	AB	Polarity=Neg	42	advmod	_	start_char=2205|end_char=2209|ner=O
+42	orkar	orka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	36	advcl	_	start_char=2210|end_char=2215|ner=O
+43	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	42	xcomp	_	start_char=2216|end_char=2218|ner=O
+44	privata	privat	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	45	amod	_	start_char=2219|end_char=2226|ner=O
+45	kontakter	kontakt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	43	obj	_	start_char=2227|end_char=2236|ner=O|SpaceAfter=No
+46	.	.	PUNCT	MAD	_	2	punct	_	start_char=2236|end_char=2237|ner=O
+
+# text = Och att det är helt normalt att en autist inte orkar med ett socialt liv!
+# sent_id = 22
+1	Och	och	CCONJ	KN	_	6	cc	_	start_char=2238|end_char=2241|ner=O
+2	att	att	SCONJ	SN	_	6	mark	_	start_char=2242|end_char=2245|ner=O
+3	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	6	expl	_	start_char=2246|end_char=2249|ner=O
+4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=2250|end_char=2252|ner=O
+5	helt	helt	ADV	AB|POS	Degree=Pos	6	advmod	_	start_char=2253|end_char=2257|ner=O
+6	normalt	normal	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=2258|end_char=2265|ner=O
+7	att	att	SCONJ	SN	_	11	mark	_	start_char=2266|end_char=2269|ner=O
+8	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	9	det	_	start_char=2270|end_char=2272|ner=O
+9	autist	autist	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nsubj	_	start_char=2273|end_char=2279|ner=O
+10	inte	inte	PART	AB	Polarity=Neg	11	advmod	_	start_char=2280|end_char=2284|ner=O
+11	orkar	orka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	csubj	_	start_char=2285|end_char=2290|ner=O
+12	med	med	ADP	PP	_	15	case	_	start_char=2291|end_char=2294|ner=O
+13	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	det	_	start_char=2295|end_char=2298|ner=O
+14	socialt	social	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	start_char=2299|end_char=2306|ner=O
+15	liv	liv	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	start_char=2307|end_char=2310|ner=O|SpaceAfter=No
+16	!	!	PUNCT	MAD	_	6	punct	_	start_char=2310|end_char=2311|ner=O|SpacesAfter=\n
+
+# text = Sökte någon med kunskap om adhd
+# sent_id = 23
+1	Sökte	söka	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=2312|end_char=2317|ner=O
+2	någon	någon	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	1	obj	_	start_char=2318|end_char=2323|ner=O
+3	med	med	ADP	PP	_	4	case	_	start_char=2324|end_char=2327|ner=O
+4	kunskap	kunskap	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	start_char=2328|end_char=2335|ner=O
+5	om	om	ADP	PP	_	6	case	_	start_char=2336|end_char=2338|ner=O
+6	adhd	adhd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	start_char=2339|end_char=2343|ner=O|SpacesAfter=\n
+
+# text = Jag upplevde att dessa psykologer förstod vad autism var för något, och de påminde mig ofta om att jag måste ta hänsyn till min funktionsnedsättning och inte bör jämföra mig med neurotypiker!
+# sent_id = 24
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=2344|end_char=2347|ner=O
+2	upplevde	uppleva	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=2348|end_char=2356|ner=O
+3	att	att	SCONJ	SN	_	6	mark	_	start_char=2357|end_char=2360|ner=O
+4	dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Dem	5	det	_	start_char=2361|end_char=2366|ner=O
+5	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	nsubj	_	start_char=2367|end_char=2377|ner=O
+6	förstod	förstå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=2378|end_char=2385|ner=O
+7	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	11	det	_	start_char=2386|end_char=2389|ner=O
+8	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nsubj	_	start_char=2390|end_char=2396|ner=O
+9	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	start_char=2397|end_char=2400|ner=O
+10	för	för	ADP	PP	_	11	case	_	start_char=2401|end_char=2404|ner=O
+11	något	någon	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	obl	_	start_char=2405|end_char=2410|ner=O|SpaceAfter=No
+12	,	,	PUNCT	MID	_	15	punct	_	start_char=2410|end_char=2411|ner=O
+13	och	och	CCONJ	KN	_	15	cc	_	start_char=2412|end_char=2415|ner=O
+14	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	15	nsubj	_	start_char=2416|end_char=2418|ner=O
+15	påminde	påminda	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=2419|end_char=2426|ner=O
+16	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	15	obj	_	start_char=2427|end_char=2430|ner=O
+17	ofta	ofta	ADV	AB|POS	Degree=Pos	15	advmod	_	start_char=2431|end_char=2435|ner=O
+18	om	om	ADP	PP	_	22	mark	_	start_char=2436|end_char=2438|ner=O
+19	att	att	SCONJ	SN	_	22	mark	_	start_char=2439|end_char=2442|ner=O
+20	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	22	nsubj	_	start_char=2443|end_char=2446|ner=O
+21	måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	_	start_char=2447|end_char=2452|ner=O
+22	ta	ta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	15	advcl	_	start_char=2453|end_char=2455|ner=O
+23	hänsyn	hänsyn	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	obj	_	start_char=2456|end_char=2462|ner=O
+24	till	till	ADP	PP	_	26	case	_	start_char=2463|end_char=2467|ner=O
+25	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	26	nmod:poss	_	start_char=2468|end_char=2471|ner=O
+26	funktionsnedsättning	funktionsnedsättning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	obl	_	start_char=2472|end_char=2492|ner=O
+27	och	och	CCONJ	KN	_	30	cc	_	start_char=2493|end_char=2496|ner=O
+28	inte	inte	PART	AB	Polarity=Neg	30	advmod	_	start_char=2497|end_char=2501|ner=O
+29	bör	böra	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	30	aux	_	start_char=2502|end_char=2505|ner=O
+30	jämföra	jämföra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	22	conj	_	start_char=2506|end_char=2513|ner=O
+31	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	30	obj	_	start_char=2514|end_char=2517|ner=O
+32	med	med	ADP	PP	_	33	case	_	start_char=2518|end_char=2521|ner=O
+33	neurotypiker	neurotypiker	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	30	obl	_	start_char=2522|end_char=2534|ner=O|SpaceAfter=No
+34	!	!	PUNCT	MAD	_	2	punct	_	start_char=2534|end_char=2535|ner=O
+
+# text = När jag ville hitta en psykolog via Mindler sökte jag en person som hade kompetens om adhd (autism fanns ej som alternativ), och detta eftersom jag resonerade att en psykolog som är kunnig om adhd också borde kunna en del om autism.
+# sent_id = 25
+1	När	när	SCONJ	HA	_	4	mark	_	start_char=2536|end_char=2539|ner=O
+2	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	start_char=2540|end_char=2543|ner=O
+3	ville	vilja	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	start_char=2544|end_char=2549|ner=O
+4	hitta	hitta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	advcl	_	start_char=2550|end_char=2555|ner=O
+5	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	det	_	start_char=2556|end_char=2558|ner=O
+6	psykolog	psykolog	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj	_	start_char=2559|end_char=2567|ner=O
+7	via	via	ADP	PP	_	8	case	_	start_char=2568|end_char=2571|ner=O
+8	Mindler	Mindler	PROPN	PM|NOM	Case=Nom	4	obl	_	start_char=2572|end_char=2579|ner=S-PER
+9	sökte	söka	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=2580|end_char=2585|ner=O
+10	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj	_	start_char=2586|end_char=2589|ner=O
+11	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	det	_	start_char=2590|end_char=2592|ner=O
+12	person	person	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	_	start_char=2593|end_char=2599|ner=O
+13	som	som	PRON	HP|-|-|-	PronType=Rel	14	nsubj	_	start_char=2600|end_char=2603|ner=O
+14	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	start_char=2604|end_char=2608|ner=O
+15	kompetens	kompet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obj	_	start_char=2609|end_char=2618|ner=O
+16	om	om	ADP	PP	_	17	case	_	start_char=2619|end_char=2621|ner=O
+17	adhd	adhd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	_	start_char=2622|end_char=2626|ner=O
+18	(	(	PUNCT	PAD	_	9	punct	_	start_char=2627|end_char=2628|ner=O|SpaceAfter=No
+19	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	nsubj	_	start_char=2628|end_char=2634|ner=O
+20	fanns	finnas	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin	9	parataxis	_	start_char=2635|end_char=2640|ner=O
+21	ej	ej	PART	AB	Polarity=Neg	20	advmod	_	start_char=2641|end_char=2643|ner=O
+22	som	som	SCONJ	KN	_	23	mark	_	start_char=2644|end_char=2647|ner=O
+23	alternativ	alternativ	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	start_char=2648|end_char=2658|ner=O|SpaceAfter=No
+24	)	)	PUNCT	PAD	_	9	punct	_	start_char=2658|end_char=2659|ner=O|SpaceAfter=No
+25	,	,	PUNCT	MID	_	27	punct	_	start_char=2659|end_char=2660|ner=O
+26	och	och	CCONJ	KN	_	27	cc	_	start_char=2661|end_char=2664|ner=O
+27	detta	denna	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	9	conj	_	start_char=2665|end_char=2670|ner=O
+28	eftersom	eftersom	SCONJ	SN	_	30	mark	_	start_char=2671|end_char=2679|ner=O
+29	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	30	nsubj	_	start_char=2680|end_char=2683|ner=O
+30	resonerade	resonera	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=2684|end_char=2694|ner=O
+31	att	att	SCONJ	SN	_	41	mark	_	start_char=2695|end_char=2698|ner=O
+32	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	33	det	_	start_char=2699|end_char=2701|ner=O
+33	psykolog	psykolog	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	41	nsubj	_	start_char=2702|end_char=2710|ner=O
+34	som	som	PRON	HP|-|-|-	PronType=Rel	36	nsubj	_	start_char=2711|end_char=2714|ner=O
+35	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	36	cop	_	start_char=2715|end_char=2717|ner=O
+36	kunnig	kunnig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	33	acl:relcl	_	start_char=2718|end_char=2724|ner=O
+37	om	om	ADP	PP	_	38	case	_	start_char=2725|end_char=2727|ner=O
+38	adhd	adhd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	36	obl	_	start_char=2728|end_char=2732|ner=O
+39	också	också	ADV	AB	_	41	advmod	_	start_char=2733|end_char=2738|ner=O
+40	borde	böra	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	41	aux	_	start_char=2739|end_char=2744|ner=O
+41	kunna	kunna	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	30	ccomp	_	start_char=2745|end_char=2750|ner=O
+42	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	43	det	_	start_char=2751|end_char=2753|ner=O
+43	del	del	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	41	obj	_	start_char=2754|end_char=2757|ner=O
+44	om	om	ADP	PP	_	45	case	_	start_char=2758|end_char=2760|ner=O
+45	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	43	nmod	_	start_char=2761|end_char=2767|ner=O|SpaceAfter=No
+46	.	.	PUNCT	MAD	_	9	punct	_	start_char=2767|end_char=2768|ner=O
+
+# text = Och jag hade rätt!
+# sent_id = 26
+1	Och	och	CCONJ	KN	_	3	cc	_	start_char=2769|end_char=2772|ner=O
+2	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	start_char=2773|end_char=2776|ner=O
+3	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=2777|end_char=2781|ner=O
+4	rätt	rätt	ADV	AB	_	3	advmod	_	start_char=2782|end_char=2786|ner=O|SpaceAfter=No
+5	!	!	PUNCT	MAD	_	3	punct	_	start_char=2786|end_char=2787|ner=O|SpacesAfter=\n
+
+# text = Många har inte blivit kändisar
+# sent_id = 27
+1	Många	mången	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	4	nsubj	_	start_char=2788|end_char=2793|ner=O
+2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=2794|end_char=2797|ner=O
+3	inte	inte	PART	AB	Polarity=Neg	4	advmod	_	start_char=2798|end_char=2802|ner=O
+4	blivit	bli	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=2803|end_char=2809|ner=O
+5	kändisar	kändisa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	xcomp	_	start_char=2810|end_char=2818|ner=O|SpacesAfter=\n
+
+# text = Mot bakgrund av mina erfarenheter misstänker jag att det måste finnas flera autismkunniga psykologer i Sverige även om de till skillnad från Bo Hejlskov inte blivit kändisar.
+# sent_id = 28
+1	Mot	mot	ADP	PP	_	5	case	_	start_char=2819|end_char=2822|ner=O
+2	bakgrund	bakgrund	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	fixed	_	start_char=2823|end_char=2831|ner=O
+3	av	av	ADP	PP	_	1	fixed	_	start_char=2832|end_char=2834|ner=O
+4	mina	jag	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=2835|end_char=2839|ner=O
+5	erfarenheter	erfarenhet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	obl	_	start_char=2840|end_char=2852|ner=O
+6	misstänker	misstänka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=2853|end_char=2863|ner=O
+7	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	start_char=2864|end_char=2867|ner=O
+8	att	att	SCONJ	SN	_	11	mark	_	start_char=2868|end_char=2871|ner=O
+9	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	11	expl	_	start_char=2872|end_char=2875|ner=O
+10	måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=2876|end_char=2881|ner=O
+11	finnas	finnas	VERB	VB|INF|SFO	VerbForm=Inf	6	ccomp	_	start_char=2882|end_char=2888|ner=O
+12	flera	flera	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	14	amod	_	start_char=2889|end_char=2894|ner=O
+13	autismkunniga	autismkunnig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	start_char=2895|end_char=2908|ner=O
+14	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	nsubj	_	start_char=2909|end_char=2919|ner=O
+15	i	i	ADP	PP	_	16	case	_	start_char=2920|end_char=2921|ner=O
+16	Sverige	Sverige	PROPN	PM|NOM	Case=Nom	11	obl	_	start_char=2922|end_char=2929|ner=S-LOC
+17	även	även	ADV	AB	_	26	mark	_	start_char=2930|end_char=2934|ner=O
+18	om	om	SCONJ	SN	_	17	fixed	_	start_char=2935|end_char=2937|ner=O
+19	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	26	nsubj	_	start_char=2938|end_char=2940|ner=O
+20	till	till	ADP	PP	_	23	case	_	start_char=2941|end_char=2945|ner=O
+21	skillnad	skillnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	fixed	_	start_char=2946|end_char=2954|ner=O
+22	från	från	ADP	PP	_	20	fixed	_	start_char=2955|end_char=2959|ner=O
+23	Bo	Bo	PROPN	PM|NOM	Case=Nom	26	obl	_	start_char=2960|end_char=2962|ner=B-PER
+24	Hejlskov	Hejlskov	PROPN	PM|NOM	Case=Nom	23	flat:name	_	start_char=2963|end_char=2971|ner=E-PER
+25	inte	inte	PART	AB	Polarity=Neg	26	advmod	_	start_char=2972|end_char=2976|ner=O
+26	blivit	bli	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	11	advcl	_	start_char=2977|end_char=2983|ner=O
+27	kändisar	kändisa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	26	xcomp	_	start_char=2984|end_char=2992|ner=O|SpaceAfter=No
+28	.	.	PUNCT	MAD	_	6	punct	_	start_char=2992|end_char=2993|ner=O
+
+# text = Det kan vara bra att försöka hitta en psykolog som också gör npf-utredningar för en sådan psykolog borde förhoppningsvis vara relativt autismkunnig.
+# sent_id = 29
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	expl	_	start_char=2994|end_char=2997|ner=O
+2	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=2998|end_char=3001|ner=O
+3	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	cop	_	start_char=3002|end_char=3006|ner=O
+4	bra	bra	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	0	root	_	start_char=3007|end_char=3010|ner=O
+5	att	att	PART	IE	_	6	mark	_	start_char=3011|end_char=3014|ner=O
+6	försöka	försöka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	csubj	_	start_char=3015|end_char=3022|ner=O
+7	hitta	hitta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=3023|end_char=3028|ner=O
+8	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	9	det	_	start_char=3029|end_char=3031|ner=O
+9	psykolog	psykolog	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obj	_	start_char=3032|end_char=3040|ner=O
+10	som	som	PRON	HP|-|-|-	PronType=Rel	12	nsubj	_	start_char=3041|end_char=3044|ner=O
+11	också	också	ADV	AB	_	12	advmod	_	start_char=3045|end_char=3050|ner=O
+12	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	start_char=3051|end_char=3054|ner=O
+13	npf-utredningar	npf-utredning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	obj	_	start_char=3055|end_char=3070|ner=O
+14	för	för	ADP	PP	_	17	case	_	start_char=3071|end_char=3074|ner=O
+15	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	17	det	_	start_char=3075|end_char=3077|ner=O
+16	sådan	sån	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	amod	_	start_char=3078|end_char=3083|ner=O
+17	psykolog	psykolog	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obl	_	start_char=3084|end_char=3092|ner=O
+18	borde	böra	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	start_char=3093|end_char=3098|ner=O
+19	förhoppningsvis	förhoppningsvis	ADV	AB	_	22	advmod	_	start_char=3099|end_char=3114|ner=O
+20	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	22	cop	_	start_char=3115|end_char=3119|ner=O
+21	relativt	relativt	ADV	AB|POS	Degree=Pos	22	advmod	_	start_char=3120|end_char=3128|ner=O
+22	autismkunnig	autismkunnig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	csubj	_	start_char=3129|end_char=3141|ner=O|SpaceAfter=No
+23	.	.	PUNCT	MAD	_	4	punct	_	start_char=3141|end_char=3142|ner=O
+
+# text = Anledningen till att jag skriver ”förhoppningsvis” är att det tyvärr även finns psykologer utan adekvat kompetens som gör autismutredningar, men jag vill gärna tro att det även finns många psykologer som gör autismutredningar och har adekvat kompetens!
+# sent_id = 30
+1	Anledningen	anledning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	start_char=3143|end_char=3154|ner=O
+2	till	till	ADP	PP	_	5	mark	_	start_char=3155|end_char=3159|ner=O
+3	att	att	SCONJ	SN	_	5	mark	_	start_char=3160|end_char=3163|ner=O
+4	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	_	start_char=3164|end_char=3167|ner=O
+5	skriver	skriva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl	_	start_char=3168|end_char=3175|ner=O
+6	”förhoppningsvis”	”förhoppningsvis”	ADV	AB	_	5	advmod	_	start_char=3176|end_char=3193|ner=O
+7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=3194|end_char=3196|ner=O
+8	att	att	SCONJ	SN	_	12	mark	_	start_char=3197|end_char=3200|ner=O
+9	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	12	expl	_	start_char=3201|end_char=3204|ner=O
+10	tyvärr	tyvärr	ADV	AB	_	12	advmod	_	start_char=3205|end_char=3211|ner=O
+11	även	även	ADV	AB	_	12	advmod	_	start_char=3212|end_char=3216|ner=O
+12	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=3217|end_char=3222|ner=O
+13	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	nsubj	_	start_char=3223|end_char=3233|ner=O
+14	utan	utan	ADP	PP	_	16	case	_	start_char=3234|end_char=3238|ner=O
+15	adekvat	adekva	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	amod	_	start_char=3239|end_char=3246|ner=O
+16	kompetens	kompet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obl	_	start_char=3247|end_char=3256|ner=O
+17	som	som	PRON	HP|-|-|-	PronType=Rel	18	nsubj	_	start_char=3257|end_char=3260|ner=O
+18	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	start_char=3261|end_char=3264|ner=O
+19	autismutredningar	autismutredning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	obj	_	start_char=3265|end_char=3282|ner=O|SpaceAfter=No
+20	,	,	PUNCT	MID	_	25	punct	_	start_char=3282|end_char=3283|ner=O
+21	men	men	CCONJ	KN	_	25	cc	_	start_char=3284|end_char=3287|ner=O
+22	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	25	nsubj	_	start_char=3288|end_char=3291|ner=O
+23	vill	vilja	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	start_char=3292|end_char=3296|ner=O
+24	gärna	gärna	ADV	AB|POS	Degree=Pos	25	advmod	_	start_char=3297|end_char=3302|ner=O
+25	tro	tro	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	conj	_	start_char=3303|end_char=3306|ner=O
+26	att	att	SCONJ	SN	_	29	mark	_	start_char=3307|end_char=3310|ner=O
+27	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	29	expl	_	start_char=3311|end_char=3314|ner=O
+28	även	även	ADV	AB	_	29	advmod	_	start_char=3315|end_char=3319|ner=O
+29	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	start_char=3320|end_char=3325|ner=O
+30	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	start_char=3326|end_char=3331|ner=O
+31	psykologer	psykolog	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	29	nsubj	_	start_char=3332|end_char=3342|ner=O
+32	som	som	PRON	HP|-|-|-	PronType=Rel	33	nsubj	_	start_char=3343|end_char=3346|ner=O
+33	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	31	acl:relcl	_	start_char=3347|end_char=3350|ner=O
+34	autismutredningar	autismutredning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	33	obj	_	start_char=3351|end_char=3368|ner=O
+35	och	och	CCONJ	KN	_	36	cc	_	start_char=3369|end_char=3372|ner=O
+36	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	33	conj	_	start_char=3373|end_char=3376|ner=O
+37	adekvat	adekva	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	38	amod	_	start_char=3377|end_char=3384|ner=O
+38	kompetens	kompet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	36	obj	_	start_char=3385|end_char=3394|ner=O|SpaceAfter=No
+39	!	!	PUNCT	MAD	_	1	punct	_	start_char=3394|end_char=3395|ner=O|SpacesAfter=\n
+
+# text = Inte säkert att du blir nöjd Observera dock att bara för att en psykolog är autismkunnig så är det inte säkert att du automatiskt blir nöjd med just den psykologen.
+# sent_id = 31
+1	Inte	inte	PART	AB	Polarity=Neg	2	advmod	_	start_char=3396|end_char=3400|ner=O
+2	säkert	säker	ADV	AB|POS	Degree=Pos	7	advmod	_	start_char=3401|end_char=3407|ner=O
+3	att	att	SCONJ	SN	_	5	mark	_	start_char=3408|end_char=3411|ner=O
+4	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	_	start_char=3412|end_char=3414|ner=O
+5	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=3415|end_char=3419|ner=O
+6	nöjd	nöja	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	xcomp	_	start_char=3420|end_char=3424|ner=O|SpacesAfter=\n
+7	Observera	observera	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=3425|end_char=3434|ner=O
+8	dock	dock	ADV	AB	_	7	advmod	_	start_char=3435|end_char=3439|ner=O
+9	att	att	SCONJ	SN	_	21	mark	_	start_char=3440|end_char=3443|ner=O
+10	bara	bara	ADV	AB	_	16	advmod	_	start_char=3444|end_char=3448|ner=O
+11	för	för	ADP	PP	_	16	mark	_	start_char=3449|end_char=3452|ner=O
+12	att	att	SCONJ	SN	_	11	fixed	_	start_char=3453|end_char=3456|ner=O
+13	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	14	det	_	start_char=3457|end_char=3459|ner=O
+14	psykolog	psykolog	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	nsubj	_	start_char=3460|end_char=3468|ner=O
+15	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	start_char=3469|end_char=3471|ner=O
+16	autismkunnig	autismkunnig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	advcl	_	start_char=3472|end_char=3484|ner=O
+17	så	så	ADV	AB	_	21	advcl	_	start_char=3485|end_char=3487|ner=O
+18	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	start_char=3488|end_char=3490|ner=O
+19	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	21	expl	_	start_char=3491|end_char=3494|ner=O
+20	inte	inte	PART	AB	Polarity=Neg	21	advmod	_	start_char=3495|end_char=3499|ner=O
+21	säkert	säker	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	ccomp	_	start_char=3500|end_char=3506|ner=O
+22	att	att	SCONJ	SN	_	25	mark	_	start_char=3507|end_char=3510|ner=O
+23	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	25	nsubj	_	start_char=3511|end_char=3513|ner=O
+24	automatiskt	automatisk	ADV	AB|POS	Degree=Pos	25	advmod	_	start_char=3514|end_char=3525|ner=O
+25	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	csubj	_	start_char=3526|end_char=3530|ner=O
+26	nöjd	nöja	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	25	xcomp	_	start_char=3531|end_char=3535|ner=O
+27	med	med	ADP	PP	_	30	case	_	start_char=3536|end_char=3539|ner=O
+28	just	just	ADV	AB	_	30	advmod	_	start_char=3540|end_char=3544|ner=O
+29	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	30	det	_	start_char=3545|end_char=3548|ner=O
+30	psykologen	psykolog	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	25	obl	_	start_char=3549|end_char=3559|ner=O|SpaceAfter=No
+31	.	.	PUNCT	MAD	_	7	punct	_	start_char=3559|end_char=3560|ner=O
+
+# text = En autist kan vara nöjd med en psykolog som jag är missnöjd med och tvärtom.
+# sent_id = 32
+1	En	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	2	det	_	start_char=3561|end_char=3563|ner=O
+2	autist	autist	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	start_char=3564|end_char=3570|ner=O
+3	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=3571|end_char=3574|ner=O
+4	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	cop	_	start_char=3575|end_char=3579|ner=O
+5	nöjd	nöja	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	start_char=3580|end_char=3584|ner=O
+6	med	med	ADP	PP	_	8	case	_	start_char=3585|end_char=3588|ner=O
+7	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	8	det	_	start_char=3589|end_char=3591|ner=O
+8	psykolog	psykolog	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	start_char=3592|end_char=3600|ner=O
+9	som	som	PRON	HP|-|-|-	PronType=Rel	12	obl	_	start_char=3601|end_char=3604|ner=O
+10	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	_	start_char=3605|end_char=3608|ner=O
+11	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=3609|end_char=3611|ner=O
+12	missnöjd	missnöjd	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	acl:relcl	_	start_char=3612|end_char=3620|ner=O
+13	med	med	ADP	PP	_	9	case	_	start_char=3621|end_char=3624|ner=O
+14	och	och	CCONJ	KN	_	15	cc	_	start_char=3625|end_char=3628|ner=O
+15	tvärtom	tvärtom	ADV	AB	_	12	conj	_	start_char=3629|end_char=3636|ner=O|SpaceAfter=No
+16	.	.	PUNCT	MAD	_	5	punct	_	start_char=3636|end_char=3637|ner=O
+
+# text = Alla autister har olika behov, och ibland stämmer inte personkemin!
+# sent_id = 33
+1	Alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur|PronType=Tot	2	det	_	start_char=3638|end_char=3642|ner=O
+2	autister	autist	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	_	start_char=3643|end_char=3651|ner=O
+3	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=3652|end_char=3655|ner=O
+4	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	start_char=3656|end_char=3661|ner=O
+5	behov	behov	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	start_char=3662|end_char=3667|ner=O|SpaceAfter=No
+6	,	,	PUNCT	MID	_	9	punct	_	start_char=3667|end_char=3668|ner=O
+7	och	och	CCONJ	KN	_	9	cc	_	start_char=3669|end_char=3672|ner=O
+8	ibland	ibland	ADV	AB	_	9	advmod	_	start_char=3673|end_char=3679|ner=O
+9	stämmer	stämma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=3680|end_char=3687|ner=O
+10	inte	inte	PART	AB	Polarity=Neg	9	advmod	_	start_char=3688|end_char=3692|ner=O
+11	personkemin	personkemin	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	start_char=3693|end_char=3704|ner=O|SpaceAfter=No
+12	!	!	PUNCT	MAD	_	3	punct	_	start_char=3704|end_char=3705|ner=O|SpacesAfter=\n\n
+

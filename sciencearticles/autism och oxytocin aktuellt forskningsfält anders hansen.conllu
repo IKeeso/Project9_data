@@ -1,0 +1,411 @@
+# text = ﻿Autism och oxytocin – aktuellt forskningsfält Anders Hansen läkare, frilansjournalist anders.hansen@sciencecap.se Article-icon LÄS ARTIKEL SOM PDF PUBLICERAD: Läkartidningen 12/2010 Lakartidningen.
+# sent_id = 0
+1	﻿	)	PUNCT	MID	_	2	punct	_	start_char=0|end_char=1|ner=O|SpaceAfter=No
+2	Autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=1|end_char=7|ner=O
+3	och	och	CCONJ	KN	_	4	cc	_	start_char=8|end_char=11|ner=O
+4	oxytocin	oxytoci	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	conj	_	start_char=12|end_char=20|ner=O
+5	–	)	PUNCT	MID	_	2	punct	_	start_char=21|end_char=22|ner=O
+6	aktuellt	aktuell	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=23|end_char=31|ner=O
+7	forskningsfält	forskningsfält	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	start_char=32|end_char=46|ner=O|SpacesAfter=\n
+8	Anders	Ander	PROPN	PM|NOM	Case=Nom	2	appos	_	start_char=47|end_char=53|ner=B-PER
+9	Hansen	Hansen	PROPN	PM|NOM	Case=Nom	8	flat:name	_	start_char=54|end_char=60|ner=E-PER|SpacesAfter=\n
+10	läkare	läkare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	flat:name	_	start_char=61|end_char=67|ner=O|SpaceAfter=No
+11	,	,	PUNCT	MID	_	10	punct	_	start_char=67|end_char=68|ner=O
+12	frilansjournalist	frilansjournalist	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	_	start_char=69|end_char=86|ner=O|SpacesAfter=\n
+13	anders.hansen@sciencecap.se	anders.hansen@sciencecap.se	PROPN	PM|NOM	Case=Nom	10	nmod	_	start_char=87|end_char=114|ner=O|SpacesAfter=\n\s
+14	Article-icon	Article-icon	PROPN	PM|NOM	Case=Nom	2	conj	_	start_char=116|end_char=128|ner=O|SpacesAfter=\s\n
+15	LÄS	LÄS	PROPN	PM|NOM	Case=Nom	2	conj	_	start_char=130|end_char=133|ner=O
+16	ARTIKEL	ARTIKEL	PROPN	PM|NOM	Case=Nom	15	nmod	_	start_char=134|end_char=141|ner=O
+17	SOM	SOM	PROPN	PM|NOM	Case=Nom	18	nmod	_	start_char=142|end_char=145|ner=O
+18	PDF	PDF	PROPN	PM|NOM	Case=Nom	2	conj	_	start_char=146|end_char=149|ner=O|SpacesAfter=\n
+19	PUBLICERAD	PUBLICERAD	PROPN	PM|NOM	Case=Nom	18	nmod	_	start_char=150|end_char=160|ner=O|SpaceAfter=No
+20	:	:	PUNCT	MID	_	19	punct	_	start_char=160|end_char=161|ner=O|SpacesAfter=\n
+21	Läkartidningen	läkartidning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	parataxis	_	start_char=162|end_char=176|ner=S-ORG
+22	12/2010	12/2010	NUM	RG|NOM	Case=Nom|NumType=Card	21	nummod	_	start_char=177|end_char=184|ner=O|SpacesAfter=\n
+23	Lakartidningen	lakartidning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	21	flat:name	_	start_char=185|end_char=199|ner=O|SpaceAfter=No
+24	.	.	PUNCT	MAD	_	2	punct	_	start_char=199|end_char=200|ner=O|SpaceAfter=No
+
+# text = se 2010-03-18 speach-bubble 0 KOMMENTARERKOMMENTERA * * * * * Tidskriften Nature rapporterar att det händer mycket på forskningsfronten kring autism.
+# sent_id = 1
+1	se	se	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=200|end_char=202|ner=O
+2	2010-03-18	2010-03-18	NUM	RG|NOM	Case=Nom|NumType=Card	3	nummod	_	start_char=203|end_char=213|ner=O|SpacesAfter=\n\s
+3	speach-bubble	speach-bubble	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	start_char=215|end_char=228|ner=O|SpacesAfter=\s\n
+4	0	0	NUM	RG|NOM	Case=Nom|NumType=Card	3	nummod	_	start_char=230|end_char=231|ner=O
+5	KOMMENTARERKOMMENTERA	KOMMENTARERKOMMENTERA	PROPN	PM|NOM	Case=Nom	3	nmod	_	start_char=232|end_char=253|ner=O|SpacesAfter=\n
+6	*	*	PUNCT	MID	_	13	punct	_	start_char=254|end_char=255|ner=O
+7	*	*	PUNCT	MID	_	13	punct	_	start_char=256|end_char=257|ner=O
+8	*	*	PUNCT	MID	_	13	punct	_	start_char=258|end_char=259|ner=O
+9	*	*	PUNCT	MID	_	13	punct	_	start_char=260|end_char=261|ner=O
+10	*	*	PUNCT	MID	_	13	punct	_	start_char=262|end_char=263|ner=O
+11	Tidskriften	tidskrift	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nmod	_	start_char=264|end_char=275|ner=O
+12	Nature	Nature	PROPN	PM|NOM	Case=Nom	13	nsubj	_	start_char=276|end_char=282|ner=O
+13	rapporterar	rapportera	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=283|end_char=294|ner=O
+14	att	att	SCONJ	SN	_	16	mark	_	start_char=295|end_char=298|ner=O
+15	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	16	nsubj	_	start_char=299|end_char=302|ner=O
+16	händer	hända	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	start_char=303|end_char=309|ner=O
+17	mycket	mycket	ADV	AB|POS	Degree=Pos	16	advmod	_	start_char=310|end_char=316|ner=O
+18	på	på	ADP	PP	_	19	case	_	start_char=317|end_char=319|ner=O
+19	forskningsfronten	forskningsfront	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	obl	_	start_char=320|end_char=337|ner=O
+20	kring	kring	ADP	PP	_	21	case	_	start_char=338|end_char=343|ner=O
+21	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nmod	_	start_char=344|end_char=350|ner=O|SpaceAfter=No
+22	.	.	PUNCT	MAD	_	13	punct	_	start_char=350|end_char=351|ner=O
+
+# text = För närvarande prövas peptidhormonet oxytocin för att lindra autismrelaterade symtom.
+# sent_id = 2
+1	För	för	ADP	PP	_	3	advmod	_	start_char=352|end_char=355|ner=B-TME
+2	närvarande	närvarande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	fixed	_	start_char=356|end_char=366|ner=E-TME
+3	prövas	pröva	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=367|end_char=373|ner=O
+4	peptidhormonet	peptidhormon	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	start_char=374|end_char=388|ner=O
+5	oxytocin	oxytoci	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj:pass	_	start_char=389|end_char=397|ner=O
+6	för	för	ADP	PP	_	8	mark	_	start_char=398|end_char=401|ner=O
+7	att	att	PART	IE	_	8	mark	_	start_char=402|end_char=405|ner=O
+8	lindra	lindra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	advcl	_	start_char=406|end_char=412|ner=O
+9	autismrelaterade	autismrelatera	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	10	amod	_	start_char=413|end_char=429|ner=O
+10	symtom	symtom	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	obj	_	start_char=430|end_char=436|ner=O|SpaceAfter=No
+11	.	.	PUNCT	MAD	_	3	punct	_	start_char=436|end_char=437|ner=O|SpacesAfter=\n
+
+# text = Hormonet, som produceras i hypofysen och som isolerades för första gången på 1950-talet, har visats spela en roll för vår upplevelse av förtroende för andra människor.
+# sent_id = 3
+1	Hormonet	hormon	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	start_char=438|end_char=446|ner=O|SpaceAfter=No
+2	,	,	PUNCT	MID	_	1	punct	_	start_char=446|end_char=447|ner=O
+3	som	som	PRON	HP|-|-|-	PronType=Rel	4	nsubj:pass	_	start_char=448|end_char=451|ner=O
+4	produceras	producera	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	1	acl:relcl	_	start_char=452|end_char=462|ner=O
+5	i	i	ADP	PP	_	6	case	_	start_char=463|end_char=464|ner=O
+6	hypofysen	hypofys	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	_	start_char=465|end_char=474|ner=O
+7	och	och	CCONJ	KN	_	9	cc	_	start_char=475|end_char=478|ner=O
+8	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj	_	start_char=479|end_char=482|ner=O
+9	isolerades	isolera	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	4	conj	_	start_char=483|end_char=493|ner=O
+10	för	för	ADP	PP	_	12	case	_	start_char=494|end_char=497|ner=B-MSR
+11	första	en	ADJ	RO|NOM	Case=Nom	12	amod	_	start_char=498|end_char=504|ner=I-MSR
+12	gången	gång	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obl	_	start_char=505|end_char=511|ner=E-MSR
+13	på	på	ADP	PP	_	14	case	_	start_char=512|end_char=514|ner=B-TME
+14	1950-talet	1950-tal	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	start_char=515|end_char=525|ner=E-TME|SpaceAfter=No
+15	,	,	PUNCT	MID	_	1	punct	_	start_char=525|end_char=526|ner=O
+16	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	start_char=527|end_char=530|ner=O
+17	visats	visa	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	0	root	_	start_char=531|end_char=537|ner=O
+18	spela	spela	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	17	xcomp	_	start_char=538|end_char=543|ner=O
+19	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	20	det	_	start_char=544|end_char=546|ner=O
+20	roll	roll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obj	_	start_char=547|end_char=551|ner=O
+21	för	för	ADP	PP	_	23	case	_	start_char=552|end_char=555|ner=O
+22	vår	vi	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=556|end_char=559|ner=O
+23	upplevelse	upplevelse	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obl	_	start_char=560|end_char=570|ner=O
+24	av	av	ADP	PP	_	25	case	_	start_char=571|end_char=573|ner=O
+25	förtroende	förtroende	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	23	nmod	_	start_char=574|end_char=584|ner=O
+26	för	för	ADP	PP	_	28	case	_	start_char=585|end_char=588|ner=O
+27	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	start_char=589|end_char=594|ner=O
+28	människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	25	nmod	_	start_char=595|end_char=604|ner=O|SpaceAfter=No
+29	.	.	PUNCT	MAD	_	17	punct	_	start_char=604|end_char=605|ner=O
+
+# text = Det är också välkänt att oxy­tocin frigörs hos kvinnor i samband med amning.
+# sent_id = 4
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	expl	_	start_char=606|end_char=609|ner=O
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=610|end_char=612|ner=O
+3	också	också	ADV	AB	_	4	advmod	_	start_char=613|end_char=618|ner=O
+4	välkänt	välkän	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	start_char=619|end_char=626|ner=O
+5	att	att	SCONJ	SN	_	7	mark	_	start_char=627|end_char=630|ner=O
+6	oxy­tocin	oxy­tocin	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nsubj:pass	_	start_char=631|end_char=640|ner=O
+7	frigörs	frigöra	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	csubj	_	start_char=641|end_char=648|ner=O
+8	hos	hos	ADP	PP	_	9	case	_	start_char=649|end_char=652|ner=O
+9	kvinnor	kvinna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obl	_	start_char=653|end_char=660|ner=O
+10	i	i	ADP	PP	_	13	case	_	start_char=661|end_char=662|ner=O
+11	samband	samband	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	fixed	_	start_char=663|end_char=670|ner=O
+12	med	med	ADP	PP	_	10	fixed	_	start_char=671|end_char=674|ner=O
+13	amning	amning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obl	_	start_char=675|end_char=681|ner=O|SpaceAfter=No
+14	.	.	PUNCT	MAD	_	4	punct	_	start_char=681|end_char=682|ner=O
+
+# text = Forskning tyder på att oxy­tocin spelar en central roll vad gäller autismdrabbades begränsade funktion avseende social interaktion och förmåga att sätta sig in i hur andra människor känner.
+# sent_id = 5
+1	Forskning	forskning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj	_	start_char=683|end_char=692|ner=O
+2	tyder	tyda	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=693|end_char=698|ner=O
+3	på	på	ADP	PP	_	6	mark	_	start_char=699|end_char=701|ner=O
+4	att	att	SCONJ	SN	_	6	mark	_	start_char=702|end_char=705|ner=O
+5	oxy­tocin	oxy­tocin	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	_	start_char=706|end_char=715|ner=O
+6	spelar	spela	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=716|end_char=722|ner=O
+7	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	9	det	_	start_char=723|end_char=725|ner=O
+8	central	central	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	amod	_	start_char=726|end_char=733|ner=O
+9	roll	roll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obj	_	start_char=734|end_char=738|ner=O
+10	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	14	det	_	start_char=739|end_char=742|ner=O
+11	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	fixed	_	start_char=743|end_char=749|ner=O
+12	autismdrabbades	autismdrabbad	ADJ	JJ|PRF|UTR/NEU|PLU|IND/DEF|GEN	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	start_char=750|end_char=765|ner=O
+13	begränsade	begränsad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	14	amod	_	start_char=766|end_char=776|ner=O
+14	funktion	funktion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	start_char=777|end_char=785|ner=O
+15	avseende	avseende	ADP	PP	_	17	case	_	start_char=786|end_char=794|ner=O
+16	social	social	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	amod	_	start_char=795|end_char=801|ner=O
+17	interaktion	interaktion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nmod	_	start_char=802|end_char=813|ner=O
+18	och	och	CCONJ	KN	_	19	cc	_	start_char=814|end_char=817|ner=O
+19	förmåga	förmåga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	conj	_	start_char=818|end_char=825|ner=O
+20	att	att	PART	IE	_	21	mark	_	start_char=826|end_char=829|ner=O
+21	sätta	sätta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	19	acl	_	start_char=830|end_char=835|ner=O
+22	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	21	obj	_	start_char=836|end_char=839|ner=O
+23	in	in	ADV	PL	_	21	compound:prt	_	start_char=840|end_char=842|ner=O
+24	i	i	ADP	PP	_	28	mark	_	start_char=843|end_char=844|ner=O
+25	hur	hur	ADV	HA	_	28	advmod	_	start_char=845|end_char=848|ner=O
+26	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	start_char=849|end_char=854|ner=O
+27	människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	28	nsubj	_	start_char=855|end_char=864|ner=O
+28	känner	känna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl	_	start_char=865|end_char=871|ner=O|SpaceAfter=No
+29	.	.	PUNCT	MAD	_	2	punct	_	start_char=871|end_char=872|ner=O|SpacesAfter=\n
+
+# text = Nature listar ett antal intressanta och aktuella försök.
+# sent_id = 6
+1	Nature	Nature	PROPN	PM|NOM	Case=Nom	2	nsubj	_	start_char=873|end_char=879|ner=S-PER
+2	listar	lista	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=880|end_char=886|ner=O
+3	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	start_char=887|end_char=890|ner=O
+4	antal	antal	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	start_char=891|end_char=896|ner=O
+5	intressanta	intressant	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	start_char=897|end_char=908|ner=O
+6	och	och	CCONJ	KN	_	7	cc	_	start_char=909|end_char=912|ner=O
+7	aktuella	aktuell	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	5	conj	_	start_char=913|end_char=921|ner=O
+8	försök	försök	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	start_char=922|end_char=928|ner=O|SpaceAfter=No
+9	.	.	PUNCT	MAD	_	2	punct	_	start_char=928|end_char=929|ner=O
+
+# text = I ett sådant, som nyligen presenterats i den amerikanska vetenskapsakademins tidskrift PNAS, visas att oxytocin påverkar beteende rörande social interaktion hos individer med autism och asperger.
+# sent_id = 7
+1	I	i	ADP	PP	_	3	case	_	start_char=930|end_char=931|ner=O
+2	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=932|end_char=935|ner=O
+3	sådant	sån	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	obl	_	start_char=936|end_char=942|ner=O|SpaceAfter=No
+4	,	,	PUNCT	MID	_	3	punct	_	start_char=942|end_char=943|ner=O
+5	som	som	PRON	HP|-|-|-	PronType=Rel	7	nsubj:pass	_	start_char=944|end_char=947|ner=O
+6	nyligen	nyligen	ADV	AB	_	7	advmod	_	start_char=948|end_char=955|ner=S-TME
+7	presenterats	presentera	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	3	acl:relcl	_	start_char=956|end_char=968|ner=O
+8	i	i	ADP	PP	_	13	case	_	start_char=969|end_char=970|ner=O
+9	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	11	det	_	start_char=971|end_char=974|ner=O
+10	amerikanska	amerikansk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	11	amod	_	start_char=975|end_char=986|ner=O
+11	vetenskapsakademins	vetenskapsakademuns	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	12	nmod:poss	_	start_char=987|end_char=1006|ner=O
+12	tidskrift	tidskrift	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	_	start_char=1007|end_char=1016|ner=O
+13	PNAS	PNAS	PROPN	PM|NOM	Case=Nom	7	obl	_	start_char=1017|end_char=1021|ner=S-WRK|SpaceAfter=No
+14	,	,	PUNCT	MID	_	3	punct	_	start_char=1021|end_char=1022|ner=O
+15	visas	visa	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=1023|end_char=1028|ner=O
+16	att	att	SCONJ	SN	_	18	mark	_	start_char=1029|end_char=1032|ner=O
+17	oxytocin	oxytoci	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	nsubj	_	start_char=1033|end_char=1041|ner=O
+18	påverkar	påverka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	csubj:pass	_	start_char=1042|end_char=1050|ner=O
+19	beteende	beteende	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	obj	_	start_char=1051|end_char=1059|ner=O
+20	rörande	rörande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	22	case	_	start_char=1060|end_char=1067|ner=O
+21	social	social	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	22	amod	_	start_char=1068|end_char=1074|ner=O
+22	interaktion	interaktion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obl	_	start_char=1075|end_char=1086|ner=O
+23	hos	hos	ADP	PP	_	24	case	_	start_char=1087|end_char=1090|ner=O
+24	individer	individ	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	22	nmod	_	start_char=1091|end_char=1100|ner=O
+25	med	med	ADP	PP	_	26	case	_	start_char=1101|end_char=1104|ner=O
+26	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	nmod	_	start_char=1105|end_char=1111|ner=O
+27	och	och	CCONJ	KN	_	28	cc	_	start_char=1112|end_char=1115|ner=O
+28	asperger	asperg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	conj	_	start_char=1116|end_char=1124|ner=O|SpaceAfter=No
+29	.	.	PUNCT	MAD	_	15	punct	_	start_char=1124|end_char=1125|ner=O
+
+# text = Forskarna har undersökt 13 individer med högfungerande autism eller asperger och visar bl a att patienter som får inhalera oxytocin i större utsträckning tittar på regioner i andra människors ansikte som uttrycker känslor, t ex ögonen.
+# sent_id = 8
+1	Forskarna	forskare	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	nsubj	_	start_char=1126|end_char=1135|ner=O
+2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=1136|end_char=1139|ner=O
+3	undersökt	undersöka	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=1140|end_char=1149|ner=O
+4	13	13	NUM	RG|NOM	Case=Nom|NumType=Card	5	nummod	_	start_char=1150|end_char=1152|ner=O
+5	individer	individ	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obj	_	start_char=1153|end_char=1162|ner=O
+6	med	med	ADP	PP	_	8	case	_	start_char=1163|end_char=1166|ner=O
+7	högfungerande	högfungerande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	8	amod	_	start_char=1167|end_char=1180|ner=O
+8	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	start_char=1181|end_char=1187|ner=O
+9	eller	eller	CCONJ	KN	_	10	cc	_	start_char=1188|end_char=1193|ner=O
+10	asperger	asperg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	conj	_	start_char=1194|end_char=1202|ner=O
+11	och	och	CCONJ	KN	_	12	cc	_	start_char=1203|end_char=1206|ner=O
+12	visar	visa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=1207|end_char=1212|ner=O
+13	bl a	bl a	ADV	AB|AN	Abbr=Yes	12	advmod	_	start_char=1213|end_char=1217|ner=O
+14	att	att	SCONJ	SN	_	23	mark	_	start_char=1218|end_char=1221|ner=O
+15	patienter	patient	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	23	nsubj	_	start_char=1222|end_char=1231|ner=O
+16	som	som	PRON	HP|-|-|-	PronType=Rel	18	nsubj	_	start_char=1232|end_char=1235|ner=O
+17	får	få	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	start_char=1236|end_char=1239|ner=O
+18	inhalera	inhalera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	15	acl:relcl	_	start_char=1240|end_char=1248|ner=O
+19	oxytocin	oxytoci	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	obj	_	start_char=1249|end_char=1257|ner=O
+20	i	i	ADP	PP	_	22	case	_	start_char=1258|end_char=1259|ner=O
+21	större	stor	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	22	amod	_	start_char=1260|end_char=1266|ner=O
+22	utsträckning	utsträckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obl	_	start_char=1267|end_char=1279|ner=O
+23	tittar	titta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	start_char=1280|end_char=1286|ner=O
+24	på	på	ADP	PP	_	25	case	_	start_char=1287|end_char=1289|ner=O
+25	regioner	region	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	23	obl	_	start_char=1290|end_char=1298|ner=O
+26	i	i	ADP	PP	_	29	case	_	start_char=1299|end_char=1300|ner=O
+27	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	start_char=1301|end_char=1306|ner=O
+28	människors	människa	NOUN	NN|UTR|PLU|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Plur	29	nmod:poss	_	start_char=1307|end_char=1317|ner=O
+29	ansikte	ansikte	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	25	nmod	_	start_char=1318|end_char=1325|ner=O
+30	som	som	PRON	HP|-|-|-	PronType=Rel	31	nsubj	_	start_char=1326|end_char=1329|ner=O
+31	uttrycker	uttrycka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	29	acl:relcl	_	start_char=1330|end_char=1339|ner=O
+32	känslor	känsla	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	31	obj	_	start_char=1340|end_char=1347|ner=O|SpaceAfter=No
+33	,	,	PUNCT	MID	_	32	punct	_	start_char=1347|end_char=1348|ner=O
+34	t ex	t ex	ADV	AB|AN	Abbr=Yes	35	advmod	_	start_char=1349|end_char=1353|ner=O
+35	ögonen	öga	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	32	appos	_	start_char=1354|end_char=1360|ner=O|SpaceAfter=No
+36	.	.	PUNCT	MAD	_	3	punct	_	start_char=1360|end_char=1361|ner=O
+
+# text = Försök där individer med autism genomgår sociala test som bygger på tillit – ett slags spel där man kastar en boll till olika personer som ibland väljer att kasta tillbaka bollen och ibland väljer att behålla den själv – visar att individer med autism i större utsträckning litar på andra efter att ha fått oxytocin.
+# sent_id = 9
+1	Försök	försöka	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	40	nsubj	_	start_char=1362|end_char=1368|ner=O
+2	där	där	ADV	HA	_	6	advmod	_	start_char=1369|end_char=1372|ner=O
+3	individer	individ	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	nsubj	_	start_char=1373|end_char=1382|ner=O
+4	med	med	ADP	PP	_	5	case	_	start_char=1383|end_char=1386|ner=O
+5	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	start_char=1387|end_char=1393|ner=O
+6	genomgår	genomgå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=1394|end_char=1402|ner=O
+7	sociala	social	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	start_char=1403|end_char=1410|ner=O
+8	test	test	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	obj	_	start_char=1411|end_char=1415|ner=O
+9	som	som	PRON	HP|-|-|-	PronType=Rel	10	nsubj	_	start_char=1416|end_char=1419|ner=O
+10	bygger	bygga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=1420|end_char=1426|ner=O
+11	på	på	ADP	PP	_	12	case	_	start_char=1427|end_char=1429|ner=O
+12	tillit	tillit	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obl	_	start_char=1430|end_char=1436|ner=O
+13	–	)	PUNCT	MID	_	16	punct	_	start_char=1437|end_char=1438|ner=O
+14	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	det	_	start_char=1439|end_char=1442|ner=O
+15	slags	slag	NOUN	NN|NEU|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	16	nmod:poss	_	start_char=1443|end_char=1448|ner=O
+16	spel	spel	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	appos	_	start_char=1449|end_char=1453|ner=O
+17	där	där	ADV	HA	_	19	advmod	_	start_char=1454|end_char=1457|ner=O
+18	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	19	nsubj	_	start_char=1458|end_char=1461|ner=O
+19	kastar	kasta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	start_char=1462|end_char=1468|ner=O
+20	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	21	det	_	start_char=1469|end_char=1471|ner=O
+21	boll	boll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	obj	_	start_char=1472|end_char=1476|ner=O
+22	till	till	ADP	PP	_	24	case	_	start_char=1477|end_char=1481|ner=O
+23	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	24	amod	_	start_char=1482|end_char=1487|ner=O
+24	personer	person	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	obl	_	start_char=1488|end_char=1496|ner=O
+25	som	som	PRON	HP|-|-|-	PronType=Rel	27	nsubj	_	start_char=1497|end_char=1500|ner=O
+26	ibland	ibland	ADV	AB	_	27	advmod	_	start_char=1501|end_char=1507|ner=O
+27	väljer	välja	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	start_char=1508|end_char=1514|ner=O
+28	att	att	PART	IE	_	29	mark	_	start_char=1515|end_char=1518|ner=O
+29	kasta	kasta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	27	xcomp	_	start_char=1519|end_char=1524|ner=O
+30	tillbaka	tillbaka	ADV	PL	_	29	compound:prt	_	start_char=1525|end_char=1533|ner=O
+31	bollen	boll	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	29	obj	_	start_char=1534|end_char=1540|ner=O
+32	och	och	CCONJ	KN	_	34	cc	_	start_char=1541|end_char=1544|ner=O
+33	ibland	ibland	ADV	AB	_	34	advmod	_	start_char=1545|end_char=1551|ner=O
+34	väljer	välja	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj	_	start_char=1552|end_char=1558|ner=O
+35	att	att	PART	IE	_	36	mark	_	start_char=1559|end_char=1562|ner=O
+36	behålla	behålla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	34	xcomp	_	start_char=1563|end_char=1570|ner=O
+37	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	36	obj	_	start_char=1571|end_char=1574|ner=O
+38	själv	själv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	36	amod	_	start_char=1575|end_char=1580|ner=O
+39	–	)	PUNCT	MID	_	40	punct	_	start_char=1581|end_char=1582|ner=O
+40	visar	visa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1583|end_char=1588|ner=O
+41	att	att	SCONJ	SN	_	48	mark	_	start_char=1589|end_char=1592|ner=O
+42	individer	individ	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	48	nsubj	_	start_char=1593|end_char=1602|ner=O
+43	med	med	ADP	PP	_	44	case	_	start_char=1603|end_char=1606|ner=O
+44	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	42	nmod	_	start_char=1607|end_char=1613|ner=O
+45	i	i	ADP	PP	_	47	case	_	start_char=1614|end_char=1615|ner=O
+46	större	stor	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	47	amod	_	start_char=1616|end_char=1622|ner=O
+47	utsträckning	utsträckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	48	obl	_	start_char=1623|end_char=1635|ner=O
+48	litar	lita	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	40	ccomp	_	start_char=1636|end_char=1641|ner=O
+49	på	på	ADP	PP	_	50	case	_	start_char=1642|end_char=1644|ner=O
+50	andra	annan	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	48	obl	_	start_char=1645|end_char=1650|ner=O
+51	efter	efter	ADP	PP	_	54	mark	_	start_char=1651|end_char=1656|ner=O
+52	att	att	PART	IE	_	54	mark	_	start_char=1657|end_char=1660|ner=O
+53	ha	ha	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	54	aux	_	start_char=1661|end_char=1663|ner=O
+54	fått	få	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	48	advcl	_	start_char=1664|end_char=1668|ner=O
+55	oxytocin	oxytoci	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	54	obj	_	start_char=1669|end_char=1677|ner=O|SpaceAfter=No
+56	.	.	PUNCT	MAD	_	40	punct	_	start_char=1677|end_char=1678|ner=O|SpacesAfter=\n
+
+# text = En annan intressant studie, som presenterades i tidskriften Biological Psychiatry under fjolåret, visade att individer med högfungerande autism som får inhalera oxytocin blir bättre på att avgöra andra individers känslor efter att ha tittat på foton med individer med olika ansiktsuttryck.
+# sent_id = 10
+1	En	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	4	det	_	start_char=1679|end_char=1681|ner=O
+2	annan	annan	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	_	start_char=1682|end_char=1687|ner=O
+3	intressant	intressant	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	_	start_char=1688|end_char=1698|ner=O
+4	studie	studie	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	nsubj	_	start_char=1699|end_char=1705|ner=O|SpaceAfter=No
+5	,	,	PUNCT	MID	_	4	punct	_	start_char=1705|end_char=1706|ner=O
+6	som	som	PRON	HP|-|-|-	PronType=Rel	7	nsubj:pass	_	start_char=1707|end_char=1710|ner=O
+7	presenterades	presentera	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	start_char=1711|end_char=1724|ner=O
+8	i	i	ADP	PP	_	11	case	_	start_char=1725|end_char=1726|ner=O
+9	tidskriften	tidskrift	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nmod	_	start_char=1727|end_char=1738|ner=O
+10	Biological	biological	ADJ	JJ	_	11	amod	_	start_char=1739|end_char=1749|ner=B-WRK
+11	Psychiatry	psychiatry	NOUN	NN	_	7	obl:agent	_	start_char=1750|end_char=1760|ner=E-WRK
+12	under	under	ADP	PP	_	13	case	_	start_char=1761|end_char=1766|ner=B-TME
+13	fjolåret	fjolår	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	start_char=1767|end_char=1775|ner=E-TME|SpaceAfter=No
+14	,	,	PUNCT	MID	_	4	punct	_	start_char=1775|end_char=1776|ner=O
+15	visade	visa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1777|end_char=1783|ner=O
+16	att	att	SCONJ	SN	_	25	mark	_	start_char=1784|end_char=1787|ner=O
+17	individer	individ	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	25	nsubj	_	start_char=1788|end_char=1797|ner=O
+18	med	med	ADP	PP	_	20	case	_	start_char=1798|end_char=1801|ner=O
+19	högfungerande	högfungerande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	20	amod	_	start_char=1802|end_char=1815|ner=O
+20	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	start_char=1816|end_char=1822|ner=O
+21	som	som	PRON	HP|-|-|-	PronType=Rel	23	nsubj	_	start_char=1823|end_char=1826|ner=O
+22	får	få	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	start_char=1827|end_char=1830|ner=O
+23	inhalera	inhalera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	20	acl:relcl	_	start_char=1831|end_char=1839|ner=O
+24	oxytocin	oxytoci	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	23	obj	_	start_char=1840|end_char=1848|ner=O
+25	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp	_	start_char=1849|end_char=1853|ner=O
+26	bättre	bra	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	25	xcomp	_	start_char=1854|end_char=1860|ner=O
+27	på	på	ADP	PP	_	29	mark	_	start_char=1861|end_char=1863|ner=O
+28	att	att	PART	IE	_	29	mark	_	start_char=1864|end_char=1867|ner=O
+29	avgöra	avgöra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	25	advcl	_	start_char=1868|end_char=1874|ner=O
+30	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	start_char=1875|end_char=1880|ner=O
+31	individers	individ	NOUN	NN|UTR|PLU|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Plur	32	nmod:poss	_	start_char=1881|end_char=1891|ner=O
+32	känslor	känsla	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	29	obj	_	start_char=1892|end_char=1899|ner=O
+33	efter	efter	ADP	PP	_	36	mark	_	start_char=1900|end_char=1905|ner=O
+34	att	att	PART	IE	_	36	mark	_	start_char=1906|end_char=1909|ner=O
+35	ha	ha	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	36	aux	_	start_char=1910|end_char=1912|ner=O
+36	tittat	titta	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	29	advcl	_	start_char=1913|end_char=1919|ner=O
+37	på	på	ADP	PP	_	38	case	_	start_char=1920|end_char=1922|ner=O
+38	foton	foton	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	36	obl	_	start_char=1923|end_char=1928|ner=O
+39	med	med	ADP	PP	_	40	case	_	start_char=1929|end_char=1932|ner=O
+40	individer	individ	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	38	nmod	_	start_char=1933|end_char=1942|ner=O
+41	med	med	ADP	PP	_	43	case	_	start_char=1943|end_char=1946|ner=O
+42	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	43	amod	_	start_char=1947|end_char=1952|ner=O
+43	ansiktsuttryck	ansiktsuttryck	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	40	nmod	_	start_char=1953|end_char=1967|ner=O|SpaceAfter=No
+44	.	.	PUNCT	MAD	_	15	punct	_	start_char=1967|end_char=1968|ner=O
+
+# text = Men trots de lovande forskningsframstegen finns flera frågetecken in­nan rönen kan resultera i klinisk praxis.
+# sent_id = 11
+1	Men	men	CCONJ	KN	_	6	cc	_	start_char=1969|end_char=1972|ner=O
+2	trots	trots	ADP	PP	_	5	case	_	start_char=1973|end_char=1978|ner=O
+3	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=1979|end_char=1981|ner=O
+4	lovande	lovande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Tense=Pres|VerbForm=Part	5	amod	_	start_char=1982|end_char=1989|ner=O
+5	forskningsframstegen	forskningsframsteg	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	6	obl	_	start_char=1990|end_char=2010|ner=O
+6	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2011|end_char=2016|ner=O
+7	flera	flera	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	start_char=2017|end_char=2022|ner=O
+8	frågetecken	frågetecken	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	nsubj	_	start_char=2023|end_char=2034|ner=O
+9	in­nan	in­nan	ADV	AB	_	6	compound:prt	_	start_char=2035|end_char=2041|ner=O
+10	rönen	rön	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	_	start_char=2042|end_char=2047|ner=O
+11	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	start_char=2048|end_char=2051|ner=O
+12	resultera	resultera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	csubj	_	start_char=2052|end_char=2061|ner=O
+13	i	i	ADP	PP	_	15	case	_	start_char=2062|end_char=2063|ner=O
+14	klinisk	klinisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	amod	_	start_char=2064|end_char=2071|ner=O
+15	praxis	praxis	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obl	_	start_char=2072|end_char=2078|ner=O|SpaceAfter=No
+16	.	.	PUNCT	MAD	_	6	punct	_	start_char=2078|end_char=2079|ner=O
+
+# text = Ett stort sådant är hur man ska skapa oxytocinbaserade preparat och behandlingsmetoder som verkar på lång sikt, då oxytocin har en halveringstid på bara ett par minuter.
+# sent_id = 12
+1	Ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	start_char=2080|end_char=2083|ner=O
+2	stort	stor	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=2084|end_char=2089|ner=O
+3	sådant	sån	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=2090|end_char=2096|ner=O
+4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=2097|end_char=2099|ner=O
+5	hur	hur	ADV	HA	_	8	advmod	_	start_char=2100|end_char=2103|ner=O
+6	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	8	nsubj	_	start_char=2104|end_char=2107|ner=O
+7	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	start_char=2108|end_char=2111|ner=O
+8	skapa	skapa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	csubj	_	start_char=2112|end_char=2117|ner=O
+9	oxytocinbaserade	oxytocinbaserad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	10	amod	_	start_char=2118|end_char=2134|ner=O
+10	preparat	preparat	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	obj	_	start_char=2135|end_char=2143|ner=O
+11	och	och	CCONJ	KN	_	12	cc	_	start_char=2144|end_char=2147|ner=O
+12	behandlingsmetoder	behandlingsmetod	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	conj	_	start_char=2148|end_char=2166|ner=O
+13	som	som	PRON	HP|-|-|-	PronType=Rel	14	nsubj	_	start_char=2167|end_char=2170|ner=O
+14	verkar	verka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	start_char=2171|end_char=2177|ner=O
+15	på	på	ADP	PP	_	17	case	_	start_char=2178|end_char=2180|ner=O
+16	lång	lång	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	17	amod	_	start_char=2181|end_char=2185|ner=O
+17	sikt	sikt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	_	start_char=2186|end_char=2190|ner=O|SpaceAfter=No
+18	,	,	PUNCT	MID	_	14	punct	_	start_char=2190|end_char=2191|ner=O
+19	då	då	SCONJ	HA	_	21	mark	_	start_char=2192|end_char=2194|ner=O
+20	oxytocin	oxytoci	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	21	nsubj	_	start_char=2195|end_char=2203|ner=O
+21	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=2204|end_char=2207|ner=O
+22	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	23	det	_	start_char=2208|end_char=2210|ner=O
+23	halveringstid	halveringstid	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obj	_	start_char=2211|end_char=2224|ner=O
+24	på	på	ADP	PP	_	28	case	_	start_char=2225|end_char=2227|ner=B-TME
+25	bara	bara	ADV	AB	_	28	advmod	_	start_char=2228|end_char=2232|ner=I-TME
+26	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	27	det	_	start_char=2233|end_char=2236|ner=I-TME
+27	par	par	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	28	nmod	_	start_char=2237|end_char=2240|ner=I-TME
+28	minuter	minut	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	21	obl	_	start_char=2241|end_char=2248|ner=E-TME|SpaceAfter=No
+29	.	.	PUNCT	MAD	_	3	punct	_	start_char=2248|end_char=2249|ner=O
+
+# text = Därtill kommer frågan om biverkningar, då hormonet har många olika funktioner, vilket kan leda till en komplex biverkningsprofil.
+# sent_id = 13
+1	Därtill	därtill	ADV	AB	_	2	advmod	_	start_char=2250|end_char=2257|ner=O
+2	kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=2258|end_char=2264|ner=O
+3	frågan	fråga	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	start_char=2265|end_char=2271|ner=O
+4	om	om	ADP	PP	_	5	case	_	start_char=2272|end_char=2274|ner=O
+5	biverkningar	biverkning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nmod	_	start_char=2275|end_char=2287|ner=O|SpaceAfter=No
+6	,	,	PUNCT	MID	_	2	punct	_	start_char=2287|end_char=2288|ner=O
+7	då	då	SCONJ	HA	_	9	mark	_	start_char=2289|end_char=2291|ner=O
+8	hormonet	hormon	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	start_char=2292|end_char=2300|ner=O
+9	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=2301|end_char=2304|ner=O
+10	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	start_char=2305|end_char=2310|ner=O
+11	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	start_char=2311|end_char=2316|ner=O
+12	funktioner	funktion	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obj	_	start_char=2317|end_char=2327|ner=O|SpaceAfter=No
+13	,	,	PUNCT	MID	_	12	punct	_	start_char=2327|end_char=2328|ner=O
+14	vilket	vilken	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	16	nsubj	_	start_char=2329|end_char=2335|ner=O
+15	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	start_char=2336|end_char=2339|ner=O
+16	leda	leda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	acl:relcl	_	start_char=2340|end_char=2344|ner=O
+17	till	till	ADP	PP	_	20	case	_	start_char=2345|end_char=2349|ner=O
+18	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	20	det	_	start_char=2350|end_char=2352|ner=O
+19	komplex	komplex	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	amod	_	start_char=2353|end_char=2360|ner=O
+20	biverkningsprofil	biverkningsprofil	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	_	start_char=2361|end_char=2378|ner=O|SpaceAfter=No
+21	.	.	PUNCT	MAD	_	2	punct	_	start_char=2378|end_char=2379|ner=O|SpaceAfter=No
+

@@ -1,0 +1,333 @@
+# text = ﻿Mitokondriell störning kopplad till autism Anders Hansen leg läkare, frilansjournalist PUBLICERAD: Läkartidningen 01/2011 Lakartidningen.
+# sent_id = 0
+1	﻿	)	PUNCT	MID	_	3	punct	_	start_char=0|end_char=1|ner=O|SpaceAfter=No
+2	Mitokondriell	mitokondriell	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	amod	_	start_char=1|end_char=14|ner=O
+3	störning	störning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=15|end_char=23|ner=O
+4	kopplad	kopplad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	start_char=24|end_char=31|ner=O
+5	till	till	ADP	PP	_	7	case	_	start_char=32|end_char=36|ner=O
+6	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	start_char=37|end_char=43|ner=O|SpacesAfter=\n
+7	Anders	Ander	PROPN	PM|NOM	Case=Nom	3	nmod	_	start_char=44|end_char=50|ner=B-PER
+8	Hansen	Hansen	PROPN	PM|NOM	Case=Nom	7	flat:name	_	start_char=51|end_char=57|ner=E-PER|SpacesAfter=\n
+9	leg	le	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	case	_	start_char=58|end_char=61|ner=O
+10	läkare	läkare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	start_char=62|end_char=68|ner=O|SpaceAfter=No
+11	,	,	PUNCT	MID	_	10	punct	_	start_char=68|end_char=69|ner=O
+12	frilansjournalist	frilansjournalist	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	_	start_char=70|end_char=87|ner=O|SpacesAfter=\n
+13	PUBLICERAD	PUBLICERAD	PROPN	PM|NOM	Case=Nom	10	nmod	_	start_char=88|end_char=98|ner=S-ORG|SpaceAfter=No
+14	:	:	PUNCT	MID	_	7	punct	_	start_char=98|end_char=99|ner=O|SpacesAfter=\n
+15	Läkartidningen	läkartidning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	appos	_	start_char=100|end_char=114|ner=S-ORG
+16	01/2011	01/2011	NUM	RG|NOM	Case=Nom|NumType=Card	15	nummod	_	start_char=115|end_char=122|ner=O|SpacesAfter=\n
+17	Lakartidningen	lakartidning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	flat:name	_	start_char=123|end_char=137|ner=O|SpaceAfter=No
+18	.	.	PUNCT	MAD	_	3	punct	_	start_char=137|end_char=138|ner=O|SpaceAfter=No
+
+# text = se 2011-01-11 speach-bubble 0 KOMMENTARERKOMMENTERA * * * * * I JAMA presenteras en amerikansk studie i vilken störningar i mitokondriens funktion kopplas till autism.
+# sent_id = 1
+1	se	se	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=138|end_char=140|ner=O
+2	2011-01-11	2011-01-11	NUM	RG|NOM	Case=Nom|NumType=Card	3	nummod	_	start_char=141|end_char=151|ner=O|SpacesAfter=\n\s
+3	speach-bubble	speach-bubble	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	start_char=153|end_char=166|ner=O|SpacesAfter=\s\n
+4	0	0	NUM	RG|NOM	Case=Nom|NumType=Card	3	nummod	_	start_char=168|end_char=169|ner=O
+5	KOMMENTARERKOMMENTERA	KOMMENTARERKOMMENTERA	PROPN	PM|NOM	Case=Nom	3	nmod	_	start_char=170|end_char=191|ner=O|SpacesAfter=\n
+6	*	*	PUNCT	MID	_	13	punct	_	start_char=192|end_char=193|ner=O
+7	*	*	PUNCT	MID	_	13	punct	_	start_char=194|end_char=195|ner=O
+8	*	*	PUNCT	MID	_	13	punct	_	start_char=196|end_char=197|ner=O
+9	*	*	PUNCT	MID	_	13	punct	_	start_char=198|end_char=199|ner=O
+10	*	*	PUNCT	MID	_	13	punct	_	start_char=200|end_char=201|ner=O
+11	I	i	ADP	PP	_	12	case	_	start_char=202|end_char=203|ner=O
+12	JAMA	JAMA	PROPN	PM|NOM	Case=Nom	13	obl	_	start_char=204|end_char=208|ner=O
+13	presenteras	presentera	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	1	conj	_	start_char=209|end_char=220|ner=O
+14	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	16	det	_	start_char=221|end_char=223|ner=O
+15	amerikansk	amerikansk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	amod	_	start_char=224|end_char=234|ner=O
+16	studie	studie	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nsubj:pass	_	start_char=235|end_char=241|ner=O
+17	i	i	ADP	PP	_	19	case	_	start_char=242|end_char=243|ner=O
+18	vilken	vilken	DET	HD|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Int	19	det	_	start_char=244|end_char=250|ner=O
+19	störningar	störning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	23	obl	_	start_char=251|end_char=261|ner=O
+20	i	i	ADP	PP	_	22	case	_	start_char=262|end_char=263|ner=O
+21	mitokondriens	mitokondri	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	22	nmod:poss	_	start_char=264|end_char=277|ner=O
+22	funktion	funktion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nmod	_	start_char=278|end_char=286|ner=O
+23	kopplas	koppla	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	13	conj	_	start_char=287|end_char=294|ner=O
+24	till	till	ADP	PP	_	25	case	_	start_char=295|end_char=299|ner=O
+25	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	obl	_	start_char=300|end_char=306|ner=O|SpaceAfter=No
+26	.	.	PUNCT	MAD	_	1	punct	_	start_char=306|end_char=307|ner=O
+
+# text = Författarna har tittat på tio barn mellan 2 och 5 års ålder med autism och jämfört dessa med tio barn som inte har autism.
+# sent_id = 2
+1	Författarna	författare	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	3	nsubj	_	start_char=308|end_char=319|ner=O
+2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=320|end_char=323|ner=O
+3	tittat	titta	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=324|end_char=330|ner=O
+4	på	på	ADP	PP	_	6	case	_	start_char=331|end_char=333|ner=O
+5	tio	tio	NUM	RG|NOM	Case=Nom|NumType=Card	6	nummod	_	start_char=334|end_char=337|ner=O
+6	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	start_char=338|end_char=342|ner=O
+7	mellan	mellan	ADP	PP	_	8	case	_	start_char=343|end_char=349|ner=B-MSR
+8	2	2	NUM	RG|NOM	Case=Nom|NumType=Card	11	nummod	_	start_char=350|end_char=351|ner=I-MSR
+9	och	och	CCONJ	KN	_	8	cc	_	start_char=352|end_char=355|ner=I-MSR
+10	5	5	NUM	RG|NOM	Case=Nom|NumType=Card	8	nummod	_	start_char=356|end_char=357|ner=I-MSR
+11	års	år	NOUN	NN|NEU|PLU|IND|GEN	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	12	nmod:poss	_	start_char=358|end_char=361|ner=I-MSR
+12	ålder	ålder	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nmod	_	start_char=362|end_char=367|ner=E-MSR
+13	med	med	ADP	PP	_	14	case	_	start_char=368|end_char=371|ner=O
+14	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	start_char=372|end_char=378|ner=O
+15	och	och	CCONJ	KN	_	16	cc	_	start_char=379|end_char=382|ner=O
+16	jämfört	jämföra	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=383|end_char=390|ner=O
+17	dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Dem	20	det	_	start_char=391|end_char=396|ner=O
+18	med	med	ADP	PP	_	20	case	_	start_char=397|end_char=400|ner=O
+19	tio	tio	NUM	RG|NOM	Case=Nom|NumType=Card	20	nummod	_	start_char=401|end_char=404|ner=O
+20	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	16	obl	_	start_char=405|end_char=409|ner=O
+21	som	som	PRON	HP|-|-|-	PronType=Rel	23	nsubj	_	start_char=410|end_char=413|ner=O
+22	inte	inte	PART	AB	Polarity=Neg	23	advmod	_	start_char=414|end_char=418|ner=O
+23	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	start_char=419|end_char=422|ner=O
+24	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	obj	_	start_char=423|end_char=429|ner=O|SpaceAfter=No
+25	.	.	PUNCT	MAD	_	3	punct	_	start_char=429|end_char=430|ner=O
+
+# text = Barnen ingick i studien Childhood autism risks from genetics and the environ­ment (CHARGE).
+# sent_id = 3
+1	Barnen	barn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	2	nsubj	_	start_char=431|end_char=437|ner=O
+2	ingick	ingå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=438|end_char=444|ner=O
+3	i	i	ADP	PP	_	5	case	_	start_char=445|end_char=446|ner=O
+4	studien	studium	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nmod	_	start_char=447|end_char=454|ner=O
+5	Childhood	childhood	NOUN	UO	Foreign=Yes	6	compound	_	start_char=455|end_char=464|ner=B-WRK
+6	autism	autism	NOUN	UO	Foreign=Yes	7	compound	_	start_char=465|end_char=471|ner=I-WRK
+7	risks	risks	NOUN	UO	Foreign=Yes	2	xcomp	_	start_char=472|end_char=477|ner=I-WRK
+8	from	from	ADP	UO	Foreign=Yes	9	case	_	start_char=478|end_char=482|ner=I-WRK
+9	genetics	genetics	NOUN	UO	Foreign=Yes	7	nmod	_	start_char=483|end_char=491|ner=I-WRK
+10	and	and	ADP	UO	Foreign=Yes	12	case	_	start_char=492|end_char=495|ner=I-WRK
+11	the	the	NOUN	UO	Foreign=Yes	12	compound	_	start_char=496|end_char=499|ner=I-WRK
+12	environ­ment	environ­ment	NOUN	UO	Foreign=Yes	9	nmod	_	start_char=500|end_char=512|ner=E-WRK
+13	(	(	PUNCT	PAD	_	12	punct	_	start_char=513|end_char=514|ner=O|SpaceAfter=No
+14	CHARGE	CHARG	NOUN	UO	Abbr=Yes	12	appos	_	start_char=514|end_char=520|ner=O|SpaceAfter=No
+15	)	)	PUNCT	PAD	_	12	punct	_	start_char=520|end_char=521|ner=O|SpaceAfter=No
+16	.	.	PUNCT	MAD	_	2	punct	_	start_char=521|end_char=522|ner=O|SpacesAfter=\n
+
+# text = Blodprov på barnen har tagits, och mitokondrierna i leukocyter har analyserats.
+# sent_id = 4
+1	Blodprov	blodprov	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj:pass	_	start_char=523|end_char=531|ner=O
+2	på	på	ADP	PP	_	3	case	_	start_char=532|end_char=534|ner=O
+3	barnen	barn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	1	nmod	_	start_char=535|end_char=541|ner=O
+4	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=542|end_char=545|ner=O
+5	tagits	ta	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	0	root	_	start_char=546|end_char=552|ner=O|SpaceAfter=No
+6	,	,	PUNCT	MID	_	12	punct	_	start_char=552|end_char=553|ner=O
+7	och	och	CCONJ	KN	_	12	cc	_	start_char=554|end_char=557|ner=O
+8	mitokondrierna	mitokondri	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	12	nsubj:pass	_	start_char=558|end_char=572|ner=O
+9	i	i	ADP	PP	_	10	case	_	start_char=573|end_char=574|ner=O
+10	leukocyter	leukocyt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	nmod	_	start_char=575|end_char=585|ner=O
+11	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	start_char=586|end_char=589|ner=O
+12	analyserats	analysera	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	5	conj	_	start_char=590|end_char=601|ner=O|SpaceAfter=No
+13	.	.	PUNCT	MAD	_	5	punct	_	start_char=601|end_char=602|ner=O
+
+# text = Resultaten kan sammanfattas med att den mitokondriella funktionen var nedsatt hos barn med autism; bland annat tycks aktiviteten hos enzymet NADH-oxidas vara nedsatt.
+# sent_id = 5
+1	Resultaten	resultat	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	nsubj:pass	_	start_char=603|end_char=613|ner=O
+2	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=614|end_char=617|ner=O
+3	sammanfattas	sammanfatta	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	0	root	_	start_char=618|end_char=630|ner=O
+4	med	med	ADP	PP	_	10	mark	_	start_char=631|end_char=634|ner=O
+5	att	att	SCONJ	SN	_	10	mark	_	start_char=635|end_char=638|ner=O
+6	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	8	det	_	start_char=639|end_char=642|ner=O
+7	mitokondriella	mitokondriell	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	8	amod	_	start_char=643|end_char=657|ner=O
+8	funktionen	funktion	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	nsubj	_	start_char=658|end_char=668|ner=O
+9	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	start_char=669|end_char=672|ner=O
+10	nedsatt	nedsatt	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	start_char=673|end_char=680|ner=O
+11	hos	hos	ADP	PP	_	12	case	_	start_char=681|end_char=684|ner=O
+12	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	10	obl	_	start_char=685|end_char=689|ner=O
+13	med	med	ADP	PP	_	14	case	_	start_char=690|end_char=693|ner=O
+14	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	start_char=694|end_char=700|ner=O|SpaceAfter=No
+15	;	;	PUNCT	MID	_	3	punct	_	start_char=700|end_char=701|ner=O
+16	bland	bland	ADP	PP	_	18	advmod	_	start_char=702|end_char=707|ner=O
+17	annat	annan	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	16	fixed	_	start_char=708|end_char=713|ner=O
+18	tycks	tyckas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=714|end_char=719|ner=O
+19	aktiviteten	aktivitet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	nsubj	_	start_char=720|end_char=731|ner=O
+20	hos	hos	ADP	PP	_	21	case	_	start_char=732|end_char=735|ner=O
+21	enzymet	enzym	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	22	nmod	_	start_char=736|end_char=743|ner=O
+22	NADH-oxidas	NADH-oxidas	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	nsubj	_	start_char=744|end_char=755|ner=O
+23	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	24	cop	_	start_char=756|end_char=760|ner=O
+24	nedsatt	nedsatt	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	18	xcomp	_	start_char=761|end_char=768|ner=O|SpaceAfter=No
+25	.	.	PUNCT	MAD	_	3	punct	_	start_char=768|end_char=769|ner=O
+
+# text = Även aktiviteten hos pyruvatde­hyd­rogenas tycks vara nedsatt.
+# sent_id = 6
+1	Även	även	ADV	AB	_	2	advmod	_	start_char=770|end_char=774|ner=O
+2	aktiviteten	aktivitet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	start_char=775|end_char=786|ner=O
+3	hos	hos	ADP	PP	_	4	case	_	start_char=787|end_char=790|ner=O
+4	pyruvatde­hyd­rogenas	pyruvatde­hyd­rogenas	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	_	start_char=791|end_char=812|ner=O
+5	tycks	tyckas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=813|end_char=818|ner=O
+6	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	cop	_	start_char=819|end_char=823|ner=O
+7	nedsatt	nedsatt	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	start_char=824|end_char=831|ner=O|SpaceAfter=No
+8	.	.	PUNCT	MAD	_	5	punct	_	start_char=831|end_char=832|ner=O
+
+# text = Författarna noterade dess­utom att produktionen av väteperoxid var ökad i mitokondrierna hos barn med autism.
+# sent_id = 7
+1	Författarna	författare	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	start_char=833|end_char=844|ner=O
+2	noterade	notera	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=845|end_char=853|ner=O
+3	dess­utom	dess­utom	ADV	AB	_	2	advmod	_	start_char=854|end_char=863|ner=O
+4	att	att	SCONJ	SN	_	9	mark	_	start_char=864|end_char=867|ner=O
+5	produktionen	produktion	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	start_char=868|end_char=880|ner=O
+6	av	av	ADP	PP	_	7	case	_	start_char=881|end_char=883|ner=O
+7	väteperoxid	väteperoxid	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	start_char=884|end_char=895|ner=O
+8	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=896|end_char=899|ner=O
+9	ökad	öka	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	start_char=900|end_char=904|ner=O
+10	i	i	ADP	PP	_	11	case	_	start_char=905|end_char=906|ner=O
+11	mitokondrierna	mitokondri	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	9	obl	_	start_char=907|end_char=921|ner=O
+12	hos	hos	ADP	PP	_	13	case	_	start_char=922|end_char=925|ner=O
+13	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	9	obl	_	start_char=926|end_char=930|ner=O
+14	med	med	ADP	PP	_	15	case	_	start_char=931|end_char=934|ner=O
+15	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	_	start_char=935|end_char=941|ner=O|SpaceAfter=No
+16	.	.	PUNCT	MAD	_	2	punct	_	start_char=941|end_char=942|ner=O
+
+# text = Allt detta indikerar att mitokondrierna inte fun­ge­rar optimalt och inte tillhandhåller tillräckligt med energi, vilket i sin tur kan leda till att cellen inte kan fungera ordentligt.
+# sent_id = 8
+1	Allt	all	DET	DT|NEU|SIN|IND/DEF	Gender=Neut|Number=Sing|PronType=Tot	2	det	_	start_char=943|end_char=947|ner=O
+2	detta	denna	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=948|end_char=953|ner=O
+3	indikerar	indikera	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=954|end_char=963|ner=O
+4	att	att	SCONJ	SN	_	7	mark	_	start_char=964|end_char=967|ner=O
+5	mitokondrierna	mitokondri	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	7	nsubj	_	start_char=968|end_char=982|ner=O
+6	inte	inte	PART	AB	Polarity=Neg	7	advmod	_	start_char=983|end_char=987|ner=O
+7	fun­ge­rar	fun­ge­rar	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=988|end_char=998|ner=O
+8	optimalt	optimal	ADV	AB|POS	Degree=Pos	7	advmod	_	start_char=999|end_char=1007|ner=O
+9	och	och	CCONJ	KN	_	11	cc	_	start_char=1008|end_char=1011|ner=O
+10	inte	inte	PART	AB	Polarity=Neg	11	advmod	_	start_char=1012|end_char=1016|ner=O
+11	tillhandhåller	tillhandhålla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=1017|end_char=1031|ner=O
+12	tillräckligt	tillräcklig	ADV	AB|POS	Degree=Pos	11	advmod	_	start_char=1032|end_char=1044|ner=O
+13	med	med	ADP	PP	_	14	case	_	start_char=1045|end_char=1048|ner=O
+14	energi	energi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	_	start_char=1049|end_char=1055|ner=O|SpaceAfter=No
+15	,	,	PUNCT	MID	_	7	punct	_	start_char=1055|end_char=1056|ner=O
+16	vilket	vilken	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Rel	21	nsubj	_	start_char=1057|end_char=1063|ner=O
+17	i	i	ADP	PP	_	21	advmod	_	start_char=1064|end_char=1065|ner=O
+18	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	17	fixed	_	start_char=1066|end_char=1069|ner=O
+19	tur	tur	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	fixed	_	start_char=1070|end_char=1073|ner=O
+20	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	start_char=1074|end_char=1077|ner=O
+21	leda	leda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	acl:relcl	_	start_char=1078|end_char=1082|ner=O
+22	till	till	ADP	PP	_	27	mark	_	start_char=1083|end_char=1087|ner=O
+23	att	att	SCONJ	SN	_	27	mark	_	start_char=1088|end_char=1091|ner=O
+24	cellen	cell	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	27	nsubj	_	start_char=1092|end_char=1098|ner=O
+25	inte	inte	PART	AB	Polarity=Neg	27	advmod	_	start_char=1099|end_char=1103|ner=O
+26	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	start_char=1104|end_char=1107|ner=O
+27	fungera	fungera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	21	advcl	_	start_char=1108|end_char=1115|ner=O
+28	ordentligt	ordentlig	ADV	AB|POS	Degree=Pos	27	advmod	_	start_char=1116|end_char=1126|ner=O|SpaceAfter=No
+29	.	.	PUNCT	MAD	_	3	punct	_	start_char=1126|end_char=1127|ner=O|SpacesAfter=\n
+
+# text = Man har även analyserat den mitokond­riella arvsmassan.
+# sent_id = 9
+1	Man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	4	nsubj	_	start_char=1128|end_char=1131|ner=O
+2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=1132|end_char=1135|ner=O
+3	även	även	ADV	AB	_	4	advmod	_	start_char=1136|end_char=1140|ner=O
+4	analyserat	analysera	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=1141|end_char=1151|ner=O
+5	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	7	det	_	start_char=1152|end_char=1155|ner=O
+6	mitokond­riella	mitokond­riella	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	_	start_char=1156|end_char=1171|ner=O
+7	arvsmassan	arvsmassa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obj	_	start_char=1172|end_char=1182|ner=O|SpaceAfter=No
+8	.	.	PUNCT	MAD	_	4	punct	_	start_char=1182|end_char=1183|ner=O
+
+# text = Det visade sig att genetiska avvikelser, som deletioner, förekom i större utsträckning hos barn med autism än hos kontrollerna.
+# sent_id = 10
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	_	start_char=1184|end_char=1187|ner=O
+2	visade	visa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1188|end_char=1194|ner=O
+3	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	2	obj	_	start_char=1195|end_char=1198|ner=O
+4	att	att	SCONJ	SN	_	11	mark	_	start_char=1199|end_char=1202|ner=O
+5	genetiska	genetisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=1203|end_char=1212|ner=O
+6	avvikelser	avvikelse	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	nsubj	_	start_char=1213|end_char=1223|ner=O|SpaceAfter=No
+7	,	,	PUNCT	MID	_	6	punct	_	start_char=1223|end_char=1224|ner=O
+8	som	som	SCONJ	KN	_	9	mark	_	start_char=1225|end_char=1228|ner=O
+9	deletioner	deletion	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	appos	_	start_char=1229|end_char=1239|ner=O|SpaceAfter=No
+10	,	,	PUNCT	MID	_	6	punct	_	start_char=1239|end_char=1240|ner=O
+11	förekom	förekomma	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	csubj	_	start_char=1241|end_char=1248|ner=O
+12	i	i	ADP	PP	_	14	case	_	start_char=1249|end_char=1250|ner=O
+13	större	stor	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	14	amod	_	start_char=1251|end_char=1257|ner=O
+14	utsträckning	utsträckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	_	start_char=1258|end_char=1270|ner=O
+15	hos	hos	ADP	PP	_	16	case	_	start_char=1271|end_char=1274|ner=O
+16	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	11	obl	_	start_char=1275|end_char=1279|ner=O
+17	med	med	ADP	PP	_	18	case	_	start_char=1280|end_char=1283|ner=O
+18	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	nmod	_	start_char=1284|end_char=1290|ner=O
+19	än	än	ADP	KN	_	21	case	_	start_char=1291|end_char=1293|ner=O
+20	hos	hos	ADP	PP	_	21	case	_	start_char=1294|end_char=1297|ner=O
+21	kontrollerna	kontroll	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	16	nmod	_	start_char=1298|end_char=1310|ner=O|SpaceAfter=No
+22	.	.	PUNCT	MAD	_	2	punct	_	start_char=1310|end_char=1311|ner=O
+
+# text = Studien ska ses mot bakgrund av att hjärnan är en mycket stor energikonsument, och påverkad mitokondriell funktion har kopplats till neurologiska och psykiska sjukdomar såsom alzheimer, parkinson och bipolär sjukdom.
+# sent_id = 11
+1	Studien	studium	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj:pass	_	start_char=1312|end_char=1319|ner=O
+2	ska	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=1320|end_char=1323|ner=O
+3	ses	se	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	0	root	_	start_char=1324|end_char=1327|ner=O
+4	mot	mot	ADP	PP	_	5	case	_	start_char=1328|end_char=1331|ner=O
+5	bakgrund	bakgrund	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	start_char=1332|end_char=1340|ner=O
+6	av	av	ADP	PP	_	13	mark	_	start_char=1341|end_char=1343|ner=O
+7	att	att	SCONJ	SN	_	13	mark	_	start_char=1344|end_char=1347|ner=O
+8	hjärnan	hjärna	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	nsubj	_	start_char=1348|end_char=1355|ner=O
+9	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=1356|end_char=1358|ner=O
+10	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	13	det	_	start_char=1359|end_char=1361|ner=O
+11	mycket	mycket	ADV	AB|POS	Degree=Pos	12	advmod	_	start_char=1362|end_char=1368|ner=O
+12	stor	stor	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	amod	_	start_char=1369|end_char=1373|ner=O
+13	energikonsument	energikonsument	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	acl	_	start_char=1374|end_char=1389|ner=O|SpaceAfter=No
+14	,	,	PUNCT	MID	_	20	punct	_	start_char=1389|end_char=1390|ner=O
+15	och	och	CCONJ	KN	_	20	cc	_	start_char=1391|end_char=1394|ner=O
+16	påverkad	påverka	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	18	amod	_	start_char=1395|end_char=1403|ner=O
+17	mitokondriell	mitokondriell	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	amod	_	start_char=1404|end_char=1417|ner=O
+18	funktion	funktion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	nsubj:pass	_	start_char=1418|end_char=1426|ner=O
+19	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	start_char=1427|end_char=1430|ner=O
+20	kopplats	koppla	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	3	conj	_	start_char=1431|end_char=1439|ner=O
+21	till	till	ADP	PP	_	25	case	_	start_char=1440|end_char=1444|ner=O
+22	neurologiska	neurologisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	start_char=1445|end_char=1457|ner=O
+23	och	och	CCONJ	KN	_	24	cc	_	start_char=1458|end_char=1461|ner=O
+24	psykiska	psykisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	22	conj	_	start_char=1462|end_char=1470|ner=O
+25	sjukdomar	sjukdom	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	20	obl	_	start_char=1471|end_char=1480|ner=O
+26	såsom	såsom	CCONJ	KN	_	27	mark	_	start_char=1481|end_char=1486|ner=O
+27	alzheimer	alzheim	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	appos	_	start_char=1487|end_char=1496|ner=O|SpaceAfter=No
+28	,	,	PUNCT	MID	_	29	punct	_	start_char=1496|end_char=1497|ner=O
+29	parkinson	parkinson	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	conj	_	start_char=1498|end_char=1507|ner=O
+30	och	och	CCONJ	KN	_	32	cc	_	start_char=1508|end_char=1511|ner=O
+31	bipolär	bipolär	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	32	amod	_	start_char=1512|end_char=1519|ner=O
+32	sjukdom	sjukdom	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	conj	_	start_char=1520|end_char=1527|ner=O|SpaceAfter=No
+33	.	.	PUNCT	MAD	_	3	punct	_	start_char=1527|end_char=1528|ner=O|SpacesAfter=\n
+
+# text = Det bör dock understrykas dels att den aktuella undersökningen är liten, dels att författarna inte vet hur de aktuella fynden med en påverkad mitokond­riell funktion kan koppas till symtomen vid autism.
+# sent_id = 12
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	expl	_	start_char=1529|end_char=1532|ner=O
+2	bör	böra	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=1533|end_char=1536|ner=O
+3	dock	dock	ADV	AB	_	4	advmod	_	start_char=1537|end_char=1541|ner=O
+4	understrykas	understryka	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	0	root	_	start_char=1542|end_char=1554|ner=O
+5	dels	dels	CCONJ	KN	_	11	advmod	_	start_char=1555|end_char=1559|ner=O
+6	att	att	SCONJ	SN	_	11	mark	_	start_char=1560|end_char=1563|ner=O
+7	den	en	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	_	start_char=1564|end_char=1567|ner=O
+8	aktuella	aktuell	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	9	amod	_	start_char=1568|end_char=1576|ner=O
+9	undersökningen	undersökning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nsubj	_	start_char=1577|end_char=1591|ner=O
+10	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=1592|end_char=1594|ner=O
+11	liten	liten	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	csubj:pass	_	start_char=1595|end_char=1600|ner=O|SpaceAfter=No
+12	,	,	PUNCT	MID	_	17	punct	_	start_char=1600|end_char=1601|ner=O
+13	dels	dels	CCONJ	KN	_	17	advmod	_	start_char=1602|end_char=1606|ner=O
+14	att	att	SCONJ	SN	_	17	mark	_	start_char=1607|end_char=1610|ner=O
+15	författarna	författare	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	17	nsubj	_	start_char=1611|end_char=1622|ner=O
+16	inte	inte	PART	AB	Polarity=Neg	17	advmod	_	start_char=1623|end_char=1627|ner=O
+17	vet	veta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	start_char=1628|end_char=1631|ner=O
+18	hur	hur	ADV	HA	_	28	advmod	_	start_char=1632|end_char=1635|ner=O
+19	de	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	21	det	_	start_char=1636|end_char=1638|ner=O
+20	aktuella	aktuell	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	start_char=1639|end_char=1647|ner=O
+21	fynden	fynd	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	28	nsubj:pass	_	start_char=1648|end_char=1654|ner=O
+22	med	med	ADP	PP	_	26	case	_	start_char=1655|end_char=1658|ner=O
+23	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	26	det	_	start_char=1659|end_char=1661|ner=O
+24	påverkad	påverka	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	26	amod	_	start_char=1662|end_char=1670|ner=O
+25	mitokond­riell	mitokond­riell	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	26	amod	_	start_char=1671|end_char=1685|ner=O
+26	funktion	funktion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	nmod	_	start_char=1686|end_char=1694|ner=O
+27	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux	_	start_char=1695|end_char=1698|ner=O
+28	koppas	koppas	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	17	ccomp	_	start_char=1699|end_char=1705|ner=O
+29	till	till	ADP	PP	_	30	case	_	start_char=1706|end_char=1710|ner=O
+30	symtomen	symtom	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	28	obl	_	start_char=1711|end_char=1719|ner=O
+31	vid	vid	ADP	PP	_	32	case	_	start_char=1720|end_char=1723|ner=O
+32	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	nmod	_	start_char=1724|end_char=1730|ner=O|SpaceAfter=No
+33	.	.	PUNCT	MAD	_	4	punct	_	start_char=1730|end_char=1731|ner=O
+
+# text = De molekylärbiologiska mekanismerna och inte minst genetiken bakom autism är forskningsfält som blivit allt större under senare år.
+# sent_id = 13
+1	De	en	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=1732|end_char=1734|ner=O
+2	molekylärbiologiska	molekylärbiologisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=1735|end_char=1754|ner=O
+3	mekanismerna	mekanism	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	11	nsubj	_	start_char=1755|end_char=1767|ner=O
+4	och	och	CCONJ	KN	_	7	cc	_	start_char=1768|end_char=1771|ner=O
+5	inte	inte	PART	AB	Polarity=Neg	7	advmod	_	start_char=1772|end_char=1776|ner=O
+6	minst	lite	ADV	AB|SUV	Degree=Sup	5	fixed	_	start_char=1777|end_char=1782|ner=O
+7	genetiken	genetik	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	conj	_	start_char=1783|end_char=1792|ner=O
+8	bakom	bakom	ADP	PP	_	9	case	_	start_char=1793|end_char=1798|ner=O
+9	autism	autism	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	start_char=1799|end_char=1805|ner=O
+10	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=1806|end_char=1808|ner=O
+11	forskningsfält	forskningsfält	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	_	start_char=1809|end_char=1823|ner=O
+12	som	som	PRON	HP|-|-|-	PronType=Rel	13	nsubj	_	start_char=1824|end_char=1827|ner=O
+13	blivit	bli	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	11	acl:relcl	_	start_char=1828|end_char=1834|ner=O
+14	allt	allt	ADV	AB	_	15	advmod	_	start_char=1835|end_char=1839|ner=O
+15	större	stor	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	13	xcomp	_	start_char=1840|end_char=1846|ner=O
+16	under	under	ADP	PP	_	18	case	_	start_char=1847|end_char=1852|ner=B-TME
+17	senare	sen	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	18	amod	_	start_char=1853|end_char=1859|ner=I-TME
+18	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	obl	_	start_char=1860|end_char=1862|ner=E-TME|SpaceAfter=No
+19	.	.	PUNCT	MAD	_	11	punct	_	start_char=1862|end_char=1863|ner=O|SpaceAfter=No
+
